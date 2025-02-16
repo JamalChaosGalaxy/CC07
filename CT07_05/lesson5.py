@@ -56,4 +56,6 @@ print(min(heightlist))
 
 ##min, max, in , not, append, insert, pop, del, random, index
 
-##Random- .
+##Random- .choice
+
+list_num = []
