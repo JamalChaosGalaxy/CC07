@@ -66,7 +66,7 @@ list_fruits = ["banana", "strawberry", "pears", "apple"]
 
 print(random.choice(list_fruits))
 
-if 2 in list_num:
-    print("yes, 2 is stored")
+if 2 not in list_num:
+    print("yes, 2 is not in the stored")
 else:
     print("no")
