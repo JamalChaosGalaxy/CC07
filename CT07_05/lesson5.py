@@ -40,23 +40,25 @@
 # print(digma.index(4))## finds for an int 4
 # print(digma.index("4"))## finds for an string 4
 
-namelist = ["Olivia", "Liam", "Emma", "Noah", "Ava", "Ethan",
-            "Sophia", "Lucas", "Mia", "Aiden"
-            ]
-heightlist = [160, 165, 158, 170, 162, 168, 159, 172, 164, 166]
+# namelist = ["Olivia", "Liam", "Emma", "Noah", "Ava", "Ethan",
+#             "Sophia", "Lucas", "Mia", "Aiden"
+#             ]
+# heightlist = [160, 165, 158, 170, 162, 168, 159, 172, 164, 166]
 
-tall = max(heightlist)
-print(tall)
-index = heightlist.index(tall)
-print(namelist[index])
+# tall = max(heightlist)
+# print(tall)
+# index = heightlist.index(tall)
+# print(namelist[index])
 
-print(namelist[heightlist.index(max(heightlist))])
-print(namelist[heightlist.index(min(heightlist))])
-print(min(heightlist))
+# print(namelist[heightlist.index(max(heightlist))])
+# print(namelist[heightlist.index(min(heightlist))])
+# print(min(heightlist))
 
 ##min, max, in , not, append, insert, pop, del, random, index
 
 ##Random- .choice
+
+import random
 
 list_num = [1, 2, 3, 4 , 5, 6 , 7]
 
