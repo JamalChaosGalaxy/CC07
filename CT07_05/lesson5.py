@@ -19,5 +19,8 @@
 
 import random
 
-digma = 
+digma = []
+
+while len(digma) < 100:
+    num = random
 
