@@ -64,3 +64,5 @@ while True:
 for food in menu:
         print(f"I would like to add {food} to the menu!")
 
+chad = input("What would you like to it")
+
