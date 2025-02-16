@@ -22,7 +22,7 @@ import random
 digma = []
 
 while len(digma) < 10:
-    num = random.randint(1, 100)
+    num = random.randint(1, 10)
     if num not in digma:
         digma.append(num)
 
@@ -37,4 +37,4 @@ print(avg)
 print(sum(digma)/len(digma))
 
 
-print(digma.index("2"))
+print(digma.index("4"))
