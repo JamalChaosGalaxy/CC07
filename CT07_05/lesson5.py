@@ -91,4 +91,4 @@ powers = [
 
 pokemon1 = random.choice(pokemons)
 pokemon2 = random.choice(pokemons)
-pok1_index = pokemon.index()
+pok1_index = pokemons.index(pokemon1)
