@@ -73,6 +73,6 @@ while True:
             print ("Yes, we do have it, please take a seat.")
 
         else:
-            print("Nope we dont have that ")
+            i += 1
 
 
