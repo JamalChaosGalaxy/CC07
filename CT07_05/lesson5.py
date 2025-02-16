@@ -29,6 +29,6 @@ while len(digma) < 10:
 print(min(digma))
 print(max(digma))
 
-total = sum(digma) 
+total = sum(digma) ## total sum in the list
 length = len(digma) 
 
