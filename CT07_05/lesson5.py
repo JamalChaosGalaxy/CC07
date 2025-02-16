@@ -37,4 +37,5 @@ print(avg)
 print(sum(digma)/len(digma))
 
 
-print(digma.index("4"))##
+print(digma.index("4"))## finds for an int 4
+
