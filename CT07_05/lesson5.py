@@ -58,18 +58,18 @@
 
 ##Random- .choice
 
-import random
+# import random
 
-list_num = [1, 2, 3, 4 , 5, 6 , 7]
+# list_num = [1, 2, 3, 4 , 5, 6 , 7]
 
-list_fruits = ["banana", "strawberry", "pears", "apple"]
+# list_fruits = ["banana", "strawberry", "pears", "apple"]
 
-print(random.choice(list_fruits))
+# print(random.choice(list_fruits))
 
-if 2 not in list_num:
-    print("yes, 2 is not in the list")
-else:
-    print("no")
+# if 2 not in list_num:
+#     print("yes, 2 is not in the list")
+# else:
+#     print("no")
 
 pokemons = [
     "Pikachu", "Charizard", "Bulbasaur", "Squirtle",
@@ -85,3 +85,5 @@ powers = [
     85, 65, 134, 130, 110,
     50, 125, 65, 110, 83
 ]
+
+pokemon
