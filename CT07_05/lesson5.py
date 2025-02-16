@@ -19,5 +19,5 @@
 
 import random
 
-
+digma = 
 
