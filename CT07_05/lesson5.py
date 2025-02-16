@@ -27,4 +27,5 @@ while len(digma) < 10:
         digma.append(num)
 
 print(min(digma))
+print(max(digma))
 
