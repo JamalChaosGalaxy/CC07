@@ -71,6 +71,9 @@
 # else:
 #     print("no")
 
+
+import random
+
 pokemons = [
     "Pikachu", "Charizard", "Bulbasaur", "Squirtle",
     "Jigglypuff", "Meowth", "Psyduck", "Eevee", "Snorlax",
@@ -87,3 +90,4 @@ powers = [
 ]
 
 pokemon1 = random.choice(pokemons)
+pokemon2 = random
