@@ -47,4 +47,4 @@ heightlist = [160, 165, 158, 170, 162, 168, 159, 172, 164, 166]
 
 tall = max(heightlist)
 index = heightlist.index(tall)
-print(nam)
+print(namelist[index])
