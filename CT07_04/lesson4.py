@@ -75,6 +75,8 @@ while True:
 
         else:
             i += 1
+        if i == len(menu):
+             print
 
     print("Sorry we dont have it")
 
