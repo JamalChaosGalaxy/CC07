@@ -34,4 +34,4 @@ length = len(digma) ## returns number of items in the list
 avg = total/length
 print(avg)
 
-print(sum)
+print(sum(digma))
