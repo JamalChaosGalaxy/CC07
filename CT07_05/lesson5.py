@@ -30,5 +30,5 @@ print(min(digma))
 print(max(digma))
 
 total = sum(digma) ## total sum in the list
-length = len(digma) 
+length = len(digma) ## returns num
 
