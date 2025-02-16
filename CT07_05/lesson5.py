@@ -8,6 +8,6 @@ for _ in range(100):
     num = random.randint(1, 1000)
     beta.append(num)
 
-print (num[])
+print (num[: 10])
 
 
