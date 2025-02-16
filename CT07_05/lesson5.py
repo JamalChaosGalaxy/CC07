@@ -12,7 +12,7 @@ print (num[: 10])
 
 skibidi = 234
 
-if num in beta:
+if num not in beta:
     print("Yes, its in")
 else:
     print("no, its not in")
