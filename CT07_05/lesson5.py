@@ -30,5 +30,5 @@ print(min(digma))
 print(max(digma))
 
 total = sum(digma) 
-length 
+length = len(digma) 
 
