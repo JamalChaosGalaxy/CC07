@@ -58,4 +58,4 @@ print(min(heightlist))
 
 ##Random- .choice
 
-list_num = []
+list_num = [1, 2, 3, 4 , 5, 6 , 7]
