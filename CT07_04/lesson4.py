@@ -66,7 +66,8 @@ for food in menu:
 
 chad = input("What would you like to it")
 
-i = 0
+# i = 0
+
 while True:
     for i in range(len(menu)):
         if chad == menu[i]:
