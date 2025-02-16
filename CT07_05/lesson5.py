@@ -70,3 +70,18 @@ if 2 not in list_num:
     print("yes, 2 is not in the list")
 else:
     print("no")
+
+pokemons = [
+    "Pikachu", "Charizard", "Bulbasaur", "Squirtle",
+    "Jigglypuff", "Meowth", "Psyduck", "Eevee", "Snorlax",
+    "Mewtwo", "Lapras", "Gengar", "Dragonite", "Machamp",
+    "Arcanine", "Alakazam", "Gyarados", "Vaporeon", "Scyther",
+    "Electabuzz"
+]
+
+powers = [
+    55, 84, 49, 48, 45,
+    45, 52, 55, 110, 110,
+    85, 65, 134, 130, 110,
+    50, 125, 65, 110, 83
+]
