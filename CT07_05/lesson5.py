@@ -68,3 +68,5 @@ print(random.choice(list_fruits))
 
 if 2 in list_num:
     print("yes, 2 is stored")
+else:
+    print("no,")
