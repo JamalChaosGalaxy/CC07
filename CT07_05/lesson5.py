@@ -54,4 +54,4 @@ print(namelist[heightlist.index(max(heightlist))])
 print(namelist[heightlist.index(min(heightlist))])
 print(min(heightlist))
 
-##min, max, in , not, append, insert, 
+##min, max, in , not, append, insert, pop, del, random
