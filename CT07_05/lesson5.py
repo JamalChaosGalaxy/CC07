@@ -22,7 +22,7 @@ import random
 digma = []
 
 while len(digma) < 10:
-    num = random.randint(1, 10)
+    num = random.randint(1, 100)
     if num not in digma:
         digma.append(num)
 
