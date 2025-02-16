@@ -21,7 +21,7 @@ import random
 
 digma = []
 
-while len(digma) < 100:
+while digma < 100:
     num = random.randint(1, 1000)
     if num not in digma:
         digma.append(num)
