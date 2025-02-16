@@ -10,7 +10,9 @@ for _ in range(100):
 
 print (num[: 10])
 
-skibidi = 234;
+skibidi = 234
 
+if num in beta:
+    print("")
 
 
