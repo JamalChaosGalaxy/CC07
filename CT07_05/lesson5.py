@@ -22,5 +22,6 @@ import random
 digma = []
 
 while len(digma) < 100:
-    num = random
+    num = random.randint(1, 1000)
+    
 
