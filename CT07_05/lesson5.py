@@ -17,26 +17,30 @@
 # else:
 #     print("no, its not in")
 
-import random
+# import random
 
-digma = []
+# digma = []
 
-while len(digma) < 10:
-    num = random.randint(1, 10)
-    if num not in digma:
-        digma.append(num)
+# while len(digma) < 10:
+#     num = random.randint(1, 10)
+#     if num not in digma:
+#         digma.append(num)
 
-print(min(digma))
-print(max(digma))
+# print(min(digma))
+# print(max(digma))
 
-total = sum(digma) ## total sum in the list
-length = len(digma) ## returns number of items in the list
-avg = total/length
-print(avg)
+# total = sum(digma) ## total sum in the list
+# length = len(digma) ## returns number of items in the list
+# avg = total/length
+# print(avg)
 
-print(sum(digma)/len(digma))
+# print(sum(digma)/len(digma))
 
 
-print(digma.index(4))## finds for an int 4
-print(digma.index("4"))## finds for an string 4
+# print(digma.index(4))## finds for an int 4
+# print(digma.index("4"))## finds for an string 4
 
+namelist = ["Olivia", "Liam", "Emma", "Noah", "Ava", "Ethan",
+            "Sophia", "Lucas", "Mia", "Aiden"
+            ]
+heightlist = [160, 165, 158, 170, 162, 168, 159, 172, 164, 166]
