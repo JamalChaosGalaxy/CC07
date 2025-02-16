@@ -60,4 +60,4 @@ print(min(heightlist))
 
 list_num = [1, 2, 3, 4 , 5, 6 , 7]
 
-print(random.choice )
+print(random.choice(list_num))
