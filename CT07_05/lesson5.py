@@ -26,5 +26,5 @@ while len(digma) < 10:
     if num not in digma:
         digma.append(num)
 
-print(min(random_numbers)
+print(min(digma))
 
