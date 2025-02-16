@@ -78,5 +78,6 @@ while True:
     print("Sorry we dont have it")
 
     if chad == "end":
-        print ("Ok,")
+        print ("Ok, we will get you order ready for you, please take a seat.")
+        end
 
