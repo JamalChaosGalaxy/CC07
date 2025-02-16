@@ -66,11 +66,12 @@ for food in menu:
 
 chad = input("What would you like to it")
 
-for i in range(len(menu)):
-    if chad == menu[i]:
-        print ("Yes, we do have it, please take a seat.")
+while True:
+    for i in range(len(menu)):
+        if chad == menu[i]:
+            print ("Yes, we do have it, please take a seat.")
 
-    else:
-        print("Nope we dont have that ")
+        else:
+            print("Nope we dont have that ")
 
 
