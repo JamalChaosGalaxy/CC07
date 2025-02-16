@@ -31,4 +31,4 @@ print(max(digma))
 
 total = sum(digma) ## total sum in the list
 length = len(digma) ## returns number of items in the list
-
+avg = total/l
