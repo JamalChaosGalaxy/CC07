@@ -75,5 +75,8 @@ while True:
         else:
             i += 1
 
-print("Sorry we dont have it")
+    print("Sorry we dont have it")
+
+    if chad == "end":
+        
 
