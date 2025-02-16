@@ -50,4 +50,4 @@ print(tall)
 index = heightlist.index(tall)
 print(namelist[index])
 
-print(namelist[heightlist.index(max)])
+print(namelist[heightlist.index(max(heightlist))])
