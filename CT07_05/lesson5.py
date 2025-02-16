@@ -35,4 +35,6 @@ avg = total/length
 print(avg)
 
 print(sum(digma)/len(digma))
+
+
 print(digma.index("2"))
