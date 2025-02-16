@@ -29,3 +29,5 @@ while len(digma) < 10:
 print(min(digma))
 print(max(digma))
 
+total = sum(random)
+
