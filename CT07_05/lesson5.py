@@ -2,4 +2,5 @@
 
 import random
 
+beta = []
 
