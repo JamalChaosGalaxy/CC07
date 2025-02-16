@@ -78,5 +78,5 @@ while True:
     print("Sorry we dont have it")
 
     if chad == "end":
-        
+        print ("Ok,")
 
