@@ -98,3 +98,6 @@ pok2_index = pokemons.index(pokemon2)
 pok1_power = powers[pok1_index]
 pok2_power = powers[pok2_index]
 
+if pok1_power > pok2_power:
+    print("")
+
