@@ -95,4 +95,5 @@ pok1_index = pokemons.index(pokemon1)
 pok2_index = pokemons.index(pokemon2)
 
 pok1_power = powers[pok1_index]
+pok2_power = powers[pok]
 
