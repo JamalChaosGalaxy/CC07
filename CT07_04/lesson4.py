@@ -79,5 +79,5 @@ while True:
 
     if chad == "end":
         print ("Ok, we will get you order ready for you, please take a seat.")
-        end
+        break
 
