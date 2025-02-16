@@ -62,4 +62,6 @@ import random
 
 list_num = [1, 2, 3, 4 , 5, 6 , 7]
 
+list_fruits = []
+
 print(random.choice(list_num))
