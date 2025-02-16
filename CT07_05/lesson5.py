@@ -15,6 +15,6 @@ skibidi = 234
 if num in beta:
     print("Yes, its in")
 else:
-    
+    print("no, its not in")
 
 
