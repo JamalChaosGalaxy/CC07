@@ -52,3 +52,4 @@ print(namelist[index])
 
 print(namelist[heightlist.index(max(heightlist))])
 print(namelist[heightlist.index(min(heightlist))])
+print(min(heightlist))
