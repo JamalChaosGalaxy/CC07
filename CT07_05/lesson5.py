@@ -13,6 +13,8 @@ print (num[: 10])
 skibidi = 234
 
 if num in beta:
-    print("Yes, is in ")
+    print("Yes, its in")
+else:
+    
 
 
