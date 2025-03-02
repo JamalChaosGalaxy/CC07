@@ -87,6 +87,7 @@ even = []
 merged = list1 + list2
 
 for item in merged:
+    i
     if item % 2 == 0:
         even.append(item)
 
