@@ -47,3 +47,6 @@ list1 = ["Apple", "Banana", "Cherry", "Durian"]
 list2 = ["Cherry", "Durian", "Elderberry", "Figs"]
 common = []
 
+for item in list1:
+    if item in list2:
+        
