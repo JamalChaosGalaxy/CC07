@@ -85,4 +85,5 @@ list2 = [5, 6, 7, 8]
 
 merged = list1 + list2
 
-
+for item in merged:
+    item
