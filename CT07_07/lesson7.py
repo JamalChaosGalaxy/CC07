@@ -32,4 +32,4 @@
 fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Figs"]
 index = 3
 
-print(fruits)
+print(fruits[3:])
