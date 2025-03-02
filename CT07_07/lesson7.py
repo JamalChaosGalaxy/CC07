@@ -55,20 +55,20 @@
 
 # print(common)
 
-list1 = ["Apple", "Banana", "Cherry", "Durian"]
-list2 = ["Cherry", "Durian", "Elderberry", "Figs"]
+# list1 = ["Apple", "Banana", "Cherry", "Durian"]
+# list2 = ["Cherry", "Durian", "Elderberry", "Figs"]
 
-unique = []
+# unique = []
 
-merged_list = list1 + list2
+# merged_list = list1 + list2
 
-print(merged_list)
+# print(merged_list)
 
-for item in merged_list:
-    if item not in unique:
-        unique.append(item)
+# for item in merged_list:
+#     if item not in unique:
+#         unique.append(item)
 
-print(unique)
+# print(unique)
 
 
 # My method
@@ -79,4 +79,6 @@ print(unique)
 
 # list1.append(unique)
 # print(unique)
+
+
 
