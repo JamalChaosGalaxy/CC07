@@ -30,7 +30,7 @@
 # print("After sort: " ,sorted_price)
 
 fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Figs"]
-index = 3
+# index = 3
 
 # left = fruits[:index]
 # right = fruits[index:]
@@ -39,5 +39,6 @@ index = 3
 # print(fruits)
 # print(len(fruits))
 
+# 
 print(fruits[0:3])
 print(fruits[3:])
