@@ -63,3 +63,5 @@ for item in list1:
     for item2 in list2:
         if item2 not in list1:
             unique.append(item2)
+
+list1.append(unique)
