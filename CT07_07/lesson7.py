@@ -52,3 +52,4 @@ for item in list1:
         if item == list2:
             common.append(item)
 
+print(common)
