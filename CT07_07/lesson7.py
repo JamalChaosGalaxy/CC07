@@ -59,7 +59,7 @@ list1 = ["Apple", "Banana", "Cherry", "Durian"]
 list2 = ["Cherry", "Durian", "Elderberry", "Figs"]
 unique = []
 
-merged_list = list1 + list2
+merged_list = list1 
 
 # My method
 # for item in list1:
