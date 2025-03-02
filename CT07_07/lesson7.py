@@ -88,4 +88,4 @@ merged = list1 + list2
 
 for item in merged:
     if item % 2 == 0:
-        
+        even
