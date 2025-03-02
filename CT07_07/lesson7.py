@@ -61,7 +61,12 @@ unique = []
 
 merged_list = list1 + list2
 
-print()
+print(merged_list)
+
+for item in merged_list:
+    if item not in unique:
+
+        
 
 # My method
 # for item in list1:
