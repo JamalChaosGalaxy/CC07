@@ -40,4 +40,4 @@ index = 3
 # print(len(fruits))
 
 print(fruits[0:2])
-
+print(fruits[3:])
