@@ -48,5 +48,6 @@ list2 = ["Cherry", "Durian", "Elderberry", "Figs"]
 common = []
 
 for item in list1:
-    if item in list2:
-        common.append(item)
+    for item2 in list2:
+        if item == list2:
+            common.append(item)
