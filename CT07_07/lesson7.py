@@ -65,3 +65,4 @@ for item in list1:
             unique.append(item2)
 
 list1.append(unique)
+print(unique)
