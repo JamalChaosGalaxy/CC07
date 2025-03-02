@@ -59,10 +59,11 @@ list1 = ["Apple", "Banana", "Cherry", "Durian"]
 list2 = ["Cherry", "Durian", "Elderberry", "Figs"]
 unique = []
 
-for item in list1:
-    for item2 in list2:
-        if item2 not in list1:
-            unique.append(item2)
+# for item in list1:
+#     for item2 in list2:
+#         if item2 not in list1:
+#             unique.append(item2)
 
-list1.append(unique)
-print(unique)
+# list1.append(unique)
+# print(unique)
+
