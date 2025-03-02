@@ -99,4 +99,4 @@ flat = []
 
 for shelf in nested_list:
     for item in shelf:
-        flat.append(it)
+        flat.append(item)
