@@ -100,3 +100,5 @@ flat = []
 for item in nested_list:
     for i in item:
         flat.append(i)
+
+print (flat)
