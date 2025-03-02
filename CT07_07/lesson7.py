@@ -29,4 +29,7 @@
 # sorted_price = sorted(total)
 # print("After sort: " ,sorted_price)
 
-list1 = [3.20, 2.65, 1.75]
+fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Figs"]
+index = 3
+
+
