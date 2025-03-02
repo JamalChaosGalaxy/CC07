@@ -1,44 +1,48 @@
-# # # # print("Hello from lesson 7")
+# # # # # print("Hello from lesson 7")
 
-# # # students = []
-# # # student1 = ["Eliot", "34528375", "Basketball"]
-# # # student2 = ["James", "23453665", "Badminton"]
-# # # student3 = ["Peter", "73465345", "Football"]
+# # # # students = []
+# # # # student1 = ["Eliot", "34528375", "Basketball"]
+# # # # student2 = ["James", "23453665", "Badminton"]
+# # # # student3 = ["Peter", "73465345", "Football"]
 
-# # # students.append(student1)
-# # # students.append(student2)
-# # # students.append(student3)
+# # # # students.append(student1)
+# # # # students.append(student2)
+# # # # students.append(student3)
 
-# # # for student in students:
-# # #     name, phonenum, cca = student
-# # #     print("Name: " + name)
-# # #     print("Phone number: " + phonenum)
-# # #     print("CCA:" + cca)
+# # # # for student in students:
+# # # #     name, phonenum, cca = student
+# # # #     print("Name: " + name)
+# # # #     print("Phone number: " + phonenum)
+# # # #     print("CCA:" + cca)
 
-# # list1 = ["Apple", "Banana", "Cherry"]
-# # list2 = ["Durian", "Elderberry", "Figs"]
+# # # list1 = ["Apple", "Banana", "Cherry"]
+# # # list2 = ["Durian", "Elderberry", "Figs"]
 
-# # fruits = list1 + list2
+# # # fruits = list1 + list2
+# # # print(fruits)
+
+# # list1 = [3.20, 2.65, 1.75]
+# # list2 = [6.15, 5.45, 4.20]
+
+# # total = list1 + list2
+# # print("Before sort: ", total)
+# # sorted_price = sorted(total)
+# # print("After sort: " ,sorted_price)
+
+# fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Figs"]
+# # index = 3
+
+# # left = fruits[:index]
+# # right = fruits[index:]
+# # print(left)
+# # print(right)
 # # print(fruits)
+# # print(len(fruits))
 
-# list1 = [3.20, 2.65, 1.75]
-# list2 = [6.15, 5.45, 4.20]
+# # To slice the fruits list into two halves using the midpoint
+# print(fruits[0:3])
+# print(fruits[3:])
 
-# total = list1 + list2
-# print("Before sort: ", total)
-# sorted_price = sorted(total)
-# print("After sort: " ,sorted_price)
-
-fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Figs"]
-# index = 3
-
-# left = fruits[:index]
-# right = fruits[index:]
-# print(left)
-# print(right)
-# print(fruits)
-# print(len(fruits))
-
-# 
-print(fruits[0:3])
-print(fruits[3:])
+list1 = ["Apple", "Banana", "Cherry", "Durian"]
+list2 = ["Cherry", "Durian", "Elderberry", "Figs"]
+common
