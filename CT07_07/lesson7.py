@@ -35,3 +35,5 @@ index = 3
 left = fruits[:index]
 right = fruits[index:]
 print(left)
+print(right)
+print(fruits)
