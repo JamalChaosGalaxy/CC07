@@ -65,7 +65,9 @@ print(merged_list)
 
 for item in merged_list:
     if item not in unique:
-        unique.append()
+        unique.append(item)
+
+print(unique)
 
 
 # My method
