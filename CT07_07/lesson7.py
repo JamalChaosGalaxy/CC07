@@ -97,6 +97,6 @@
 nested_list = [[1, 2], [3, 4], [5, 6]]
 flat = []
 
-for shelf in nested_list:
-    for item in shelf:
+for item in nested_list:
+    for i in item:
         flat.append(item)
