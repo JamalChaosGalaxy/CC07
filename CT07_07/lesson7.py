@@ -39,4 +39,5 @@ index = 3
 # print(fruits)
 # print(len(fruits))
 
-print(fruits[3:])
+print(fruits[0:2])
+
