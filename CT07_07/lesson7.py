@@ -93,3 +93,5 @@ for item in merged:
         even.append(item)
 
 print(even)
+
+nested_list = [[1, 2], [3, 4], [5, 6]]
