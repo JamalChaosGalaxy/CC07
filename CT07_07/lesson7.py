@@ -80,18 +80,23 @@
 # list1.append(unique)
 # print(unique)
 
-list1 = [1, 2, 3, 4]
-list2 = [5, 6, 7, 8]
+# list1 = [1, 2, 3, 4]
+# list2 = [5, 6, 7, 8]
 
-even = []
-merged = list1 + list2
+# even = []
+# merged = list1 + list2
 
-for item in merged:
-    i = item % 2
-    print(i)
-    if i == 0:
-        even.append(item)
+# for item in merged:
+#     i = item % 2
+#     print(i)
+#     if i == 0:
+#         even.append(item)
 
-print(even)
+# print(even)
 
 nested_list = [[1, 2], [3, 4], [5, 6]]
+flat = []
+
+for shelf in nested_list:
+    for item in shelf:
+        flat.append(it)
