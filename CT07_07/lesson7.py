@@ -83,7 +83,9 @@
 list1 = [1, 2, 3, 4]
 list2 = [5, 6, 7, 8]
 
+even = []
 merged = list1 + list2
 
 for item in merged:
-    item % 2 
+    if item % 2 == 0:
+        
