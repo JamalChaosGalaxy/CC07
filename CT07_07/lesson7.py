@@ -36,5 +36,5 @@ left = fruits[:index]
 right = fruits[index:]
 print(left)
 print(right)
-print(fruits)
-print(len(fruits))
+# print(fruits)
+# print(len(fruits))
