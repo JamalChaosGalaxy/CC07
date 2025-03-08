@@ -47,7 +47,7 @@
 
 import time
 
-time = int (input("How many minutes do you want to study for?"))
+time = int(input("How many minutes do you want to study for?"))
 time = time * 60
 
 while ( time != 0):
