@@ -23,9 +23,9 @@ students = [
 girl = []
 boy = []
 
-for student in students:
-    name, gender = student
-    print("The gender of " + name + " : " + gender)
+# for student in students:
+#     name, gender = student
+#     print("The gender of " + name + " : " + gender)
 
 for student in students:
     name, gender = student
@@ -34,10 +34,10 @@ for student in students:
     elif gender == "M":
         boy.append(name)
 
-for name in girl:
-    print(name)
-for name in boy:
-    print(name)
+# for name in girl:
+#     print(name)
+# for name in boy:
+#     print(name)
 
 num_boy = len(boy)
 num_girl = len(girl)

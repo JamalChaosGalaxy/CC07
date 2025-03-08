@@ -21,27 +21,27 @@
 # # # # fruits = list1 + list2
 # # # # print(fruits)
 
-# # # list1 = [3.20, 2.65, 1.75]
-# # # list2 = [6.15, 5.45, 4.20]
+# list1 = [3.20, 2.65, 1.75]
+# list2 = [6.15, 5.45, 4.20]
 
-# # # total = list1 + list2
-# # # print("Before sort: ", total)
-# # # sorted_price = sorted(total)
-# # # print("After sort: " ,sorted_price)
+# total = list1 + list2
+# print("Before sort: ", total)
+# sorted_price = sorted(total)
+# print("After sort: " ,sorted_price)
 
-# # fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Figs"]
-# # # index = 3
+fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Figs"]
+index = 3
 
-# # # left = fruits[:index]
-# # # right = fruits[index:]
-# # # print(left)
-# # # print(right)
-# # # print(fruits)
-# # # print(len(fruits))
+# left = fruits[:index]
+# right = fruits[index:]
+# print(left)
+# print(right)
+# print(fruits)
+# print(len(fruits))
 
-# # # To slice the fruits list into two halves using the midpoint
-# # print(fruits[0:3])
-# # print(fruits[3:])
+# To slice the fruits list into two halves using the midpoint
+print(fruits[0:3])
+print(fruits[3:])
 
 # list1 = ["Apple", "Banana", "Cherry", "Durian"]
 # list2 = ["Cherry", "Durian", "Elderberry", "Figs"]

@@ -50,37 +50,85 @@
 # for country in countries:
 #         print(f"I would like to visit {country}")
 
+# menu = []
+# i = 0
+
+# while True:
+#     food = input("What would you like to add to the menu?")
+#     if food == "end":
+#         break
+
+#     menu.append(food)
+#     i += 1 
+
+# for food in menu:
+#         print(f"I would like to add {food} to the menu!")
+
+# chad = input("What would you like to it")
+
+# # i = 0
+
+# while True:
+#     for i in range(len(menu)):
+#         if chad == menu[i]:
+#             print ("Yes, we do have it, please take a seat.")
+
+#         else:
+#             i += 1
+#         if i == len(menu):
+#             print("sorry, we dont have it")
+
+#     print("Sorry we dont have it")
+
+#     if chad == "end":
+#         print ("Ok, we will get you order ready for you, please take a seat.")
+#         break
+
+menu = []
+i = 0
+
+# Ask the user to add items to the menu
+while True:
+    food = input("What would you like to add to the menu? (Type 'end' to stop) ")
+    if food == "end":
+        break
+    menu.append(food)
+    i += 1 
+
+# Print all the food items in the menu
+for food in menu:
+    print(f"I would like to add {food} to the menu!")
+
+# Ask the user which food they want
+while True:
+    chad = input("What would you like to eat? (Type 'end' to stop) ")
+
+    if chad == "end":
+        print("Ok, we will get your order ready for you, please take a seat.")
+        break
+
+    # Check if the food is in the menu
+    if chad in menu:
+        print("Yes, we do have it, please take a seat.")
+    else:
+        print("Sorry, we don't have it.")
+
+
 menu = []
 i = 0
 
 while True:
-    food = input("What would you like to add to the menu?")
+    food = print(input("What would you like to add to the menu?(Type 'end' if you are finished)"))
     if food == "end":
         break
-
     menu.append(food)
-    i += 1 
-
-for food in menu:
+    i += 1
+    for food in menu:
         print(f"I would like to add {food} to the menu!")
 
-chad = input("What would you like to it")
-
-# i = 0
-
 while True:
-    for i in range(len(menu)):
-        if chad == menu[i]:
-            print ("Yes, we do have it, please take a seat.")
-
-        else:
-            i += 1
-        if i == len(menu):
-            print("sorry, we dont have it")
-
-    print("Sorry we dont have it")
-
-    if chad == "end":
-        print ("Ok, we will get you order ready for you, please take a seat.")
+    answer = print(input("What would like to eat?(Input 'end' if you are done)"))
+    if answer == "end":
         break
-
+    i
+    
