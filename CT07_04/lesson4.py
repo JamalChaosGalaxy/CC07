@@ -84,34 +84,34 @@
 #         print ("Ok, we will get you order ready for you, please take a seat.")
 #         break
 
-menu = []
-i = 0
+# menu = []
+# i = 0
 
-# Ask the user to add items to the menu
-while True:
-    food = input("What would you like to add to the menu? (Type 'end' to stop) ")
-    if food == "end":
-        break
-    menu.append(food)
-    i += 1 
+# # Ask the user to add items to the menu
+# while True:
+#     food = input("What would you like to add to the menu? (Type 'end' to stop) ")
+#     if food == "end":
+#         break
+#     menu.append(food)
+#     i += 1 
 
-# Print all the food items in the menu
-for food in menu:
-    print(f"I would like to add {food} to the menu!")
+# # Print all the food items in the menu
+# for food in menu:
+#     print(f"I would like to add {food} to the menu!")
 
-# Ask the user which food they want
-while True:
-    chad = input("What would you like to eat? (Type 'end' to stop) ")
+# # Ask the user which food they want
+# while True:
+#     chad = input("What would you like to eat? (Type 'end' to stop) ")
 
-    if chad == "end":
-        print("Ok, we will get your order ready for you, please take a seat.")
-        break
+#     if chad == "end":
+#         print("Ok, we will get your order ready for you, please take a seat.")
+#         break
 
-    # Check if the food is in the menu
-    if chad in menu:
-        print("Yes, we do have it, please take a seat.")
-    else:
-        print("Sorry, we don't have it.")
+#     # Check if the food is in the menu
+#     if chad in menu:
+#         print("Yes, we do have it, please take a seat.")
+#     else:
+#         print("Sorry, we don't have it.")
 
 
 menu = []
