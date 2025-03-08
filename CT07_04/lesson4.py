@@ -124,7 +124,8 @@ while True:
         break
     menu.append(food)
     i += 1
-    for food in menu:
+    
+for food in menu:
         print(f"I would like to add {food} to the menu!")
 
 while True:
