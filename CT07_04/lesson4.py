@@ -119,7 +119,7 @@ menu = []
 i = 0
 
 while True:
-    food = print(input("What would you like to add to the menu?(Type 'end' if you are finished)"))
+    food = input("What would you like to add to the menu?(Type 'end' if you are finished)")
     if food == "end":
         break
     menu.append(food)
@@ -129,7 +129,7 @@ for food in menu:
         print(f"I would like to add {food} to the menu!")
 
 while True:
-    answer = print(input("What would like to eat?(Input 'end' if you are done)"))
+    answer = input("What would like to eat?(Input 'end' if you are done)")
     if answer == "end":
         print("Ok we will get your order ready for you")
         break
