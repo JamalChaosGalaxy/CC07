@@ -45,15 +45,27 @@
 # print("Correct")
 # score = score + 1
 
+# import time
+
+# time = int(input("How many minutes do you want to study for?"))
+# time = time * 60
+
+# while ( time != 0):
+#     print ("seconds")
+#     time = time - 1
+#     time.sleep(1)
+
+# print("You suck at maths! A- HAIYAAA")
+
 import time
 
-time = int(input("How many minutes do you want to study for?"))
-time = time * 60
+study_time = int(input("How many minutes do you want to study for? "))
+study_time = study_time * 60  # convert to seconds
 
-while ( time != 0):
-    print ("seconds")
-    time = time - 1
-    time.sleep(1)
+while study_time != 0:
+    print(f"{study_time} seconds remaining")
+    study_time -= 1  # decrement time by 1 second
+    time.sleep(1)  # wait for 1 second
 
-print("You suck at maths! A- HAIYAAA")
+print("Time's up! You've finished studying.")
 
