@@ -130,5 +130,6 @@ while True:
     answer = print(input("What would like to eat?(Input 'end' if you are done)"))
     if answer == "end":
         break
-    i
+    if answer in menu:
+        print("")
     
