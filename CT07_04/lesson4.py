@@ -129,11 +129,12 @@ while True:
 while True:
     answer = print(input("What would like to eat?(Input 'end' if you are done)"))
     if answer == "end":
-        break
+        print("")
+
     if answer in menu:
         print("Yes, we do have that")
     else:
         print("Sorry we dont have that")
     
-    
+
     
