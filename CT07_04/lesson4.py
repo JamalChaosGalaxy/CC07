@@ -131,5 +131,9 @@ while True:
     if answer == "end":
         break
     if answer in menu:
-        print("")
+        print("Yes, we do have that")
+    else:
+        print("Sorry we dont have that")
+    
+    
     
