@@ -89,7 +89,7 @@ powers = [
     50, 125, 65, 110, 83
 ]
 
-index = pokemon.
+index = pokemons.index(Machamp)
 print(pokemons[powers.index(max(powers))])
 
 # pokemon1 = random.choice(pokemons)
