@@ -90,7 +90,7 @@ powers = [
 ]
 
 index = pokemons.index("Machamp")
-print(powers)
+print(powers.index)
 
 # pokemon1 = random.choice(pokemons)
 # pokemon2 = random.choice(pokemons)
