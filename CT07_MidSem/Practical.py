@@ -5,4 +5,5 @@ print(f"Hero starts on his adventure with Health: ", health)
 while health > 0:
     damage = random.randint(1,15)
     health -= damage
-    print(f"")
+    print("After finishing monsters, his health is now", health)
+
