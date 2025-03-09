@@ -89,15 +89,17 @@ powers = [
     50, 125, 65, 110, 83
 ]
 
-pokemon1 = random.choice(pokemons)
-pokemon2 = random.choice(pokemons)
+print()
 
-pok1_index = pokemons.index(pokemon1)
-pok2_index = pokemons.index(pokemon2)
+# pokemon1 = random.choice(pokemons)
+# pokemon2 = random.choice(pokemons)
 
-pok1_power = powers[pok1_index]
-pok2_power = powers[pok2_index]
+# pok1_index = pokemons.index(pokemon1)
+# pok2_index = pokemons.index(pokemon2)
 
-if pok1_power > pok2_power:
-    print(pokemon1)
+# pok1_power = powers[pok1_index]
+# pok2_power = powers[pok2_index]
+
+# if pok1_power > pok2_power:
+#     print(pokemon1)
 
