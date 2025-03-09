@@ -10,7 +10,8 @@ while health > 0:
     print("After finishing monsters, his health is now", health)
     i += 1
     battles += 1
-    
+
+print(f"He fought", battles, "battles, and died")
 
     
     
