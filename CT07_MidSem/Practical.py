@@ -1,7 +1,7 @@
 import random
 health = 100;
 
-
+battles = 0
 i = 0
 print(f"Hero starts on his adventure with Health: ", health)
 while health > 0:
@@ -9,6 +9,8 @@ while health > 0:
     health -= damage
     print("After finishing monsters, his health is now", health)
     i += 1
+    battle += 1
+
 
 
     
