@@ -89,7 +89,7 @@ powers = [
     50, 125, 65, 110, 83
 ]
 
-print(pokemons(powers.index(max(powers))))
+print(pokemons[powers.index(max(powers))])
 
 # pokemon1 = random.choice(pokemons)
 # pokemon2 = random.choice(pokemons)
