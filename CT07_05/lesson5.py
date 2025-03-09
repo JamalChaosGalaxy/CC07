@@ -89,7 +89,8 @@ powers = [
     50, 125, 65, 110, 83
 ]
 
-pokemonskibidi = pokemons.index()
+pokemonskibidi = pokemons.index("Machamp")
+
 
 # pokemon1 = random.choice(pokemons)
 # pokemon2 = random.choice(pokemons)
