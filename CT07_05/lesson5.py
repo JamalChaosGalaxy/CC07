@@ -89,6 +89,7 @@ powers = [
     50, 125, 65, 110, 83
 ]
 
+index = 
 print(pokemons[powers.index(max(powers))])
 
 # pokemon1 = random.choice(pokemons)
