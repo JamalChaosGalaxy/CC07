@@ -6,4 +6,4 @@ while health > 0:
     damage = random.randint(1,15)
     health -= damage
     print("After finishing monsters, his health is now", health)
-
+    i += 1
