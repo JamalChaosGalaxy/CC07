@@ -7,3 +7,4 @@ while health > 0:
     health -= damage
     print("After finishing monsters, his health is now", health)
     i += 1
+    
