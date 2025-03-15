@@ -49,3 +49,4 @@
 password = "hello world"
 print(password.split(","))
 
+print(password.join(" "))
