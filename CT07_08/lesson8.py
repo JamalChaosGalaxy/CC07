@@ -53,11 +53,11 @@
 
 word = "Hello World"
 oval = word.split(" ")
-sentence = ""
+sentence = []
 
 for word in oval:
     sentence.append(word[::-1])
-sentence = ""
+sentence = "".join(sentence)
     
 
 
