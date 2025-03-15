@@ -56,6 +56,6 @@ reverse = word.split(" ")
 
 for word in reverse:
     word[::-1]
-print(reverse)
+
 
 # print("burgers"[::-1])
