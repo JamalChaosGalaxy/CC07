@@ -55,8 +55,9 @@ word = "Hello World"
 reverse = word.split(",")
 output = ""
 
-output.append("Hello"[::-1])
-output.append("World"[::-1])
-print(output)
+for word in 
+    output.append("Hello"[::-1])
+    output.append("World"[::-1])
+    print(output)
 
 # print("burgers"[::-1])
