@@ -57,6 +57,6 @@ output = ""
 
 output.append("Hello"[::-1])
 output.append("World"[::-1])
-
+print(output)
 
 # print("burgers"[::-1])
