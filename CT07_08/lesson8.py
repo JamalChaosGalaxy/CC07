@@ -44,5 +44,5 @@ for char in sentence:
         mocked_sentence += char.upper()
         upper = True
         
-pr
+print(mocked_sentence)
 
