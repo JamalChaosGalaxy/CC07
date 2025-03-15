@@ -54,9 +54,10 @@
 word = "Hello World"
 oval = word.split(" ")
 
+
 for word in oval:
     reverse = word[::-1]
-    print(reverse.join(" "))
+    
 
 
 # print("burgers"[::-1])
