@@ -10,3 +10,6 @@ while True:
     password = input("Please input your password: ")
     if len(password) >= 8 and password.isupper == True and password.isunder == True and password.isalpha == False and password.isalnum == True:
         print("Password is valid")
+        break
+    else:
+        print
