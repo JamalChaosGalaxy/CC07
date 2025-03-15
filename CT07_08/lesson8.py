@@ -20,4 +20,5 @@ has_lower = False
 has_num = False
 only_alnum = False
 
-password = input
+password = input("Please enter your password: ")
+
