@@ -56,8 +56,8 @@ oval = word.split(" ")
 sentence = ""
 
 for word in oval:
-     reverse = word[::-1]
-     sentence
+    reverse = word[::-1]
+    sentence += 
     
 
 
