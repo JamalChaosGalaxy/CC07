@@ -57,5 +57,6 @@ output = ""
 
 for word in reverse:
     output.append("Hello"[::-1])
+    output.append("World"[::-1])
 
 # print("burgers"[::-1])
