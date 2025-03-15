@@ -8,7 +8,7 @@
 
 while True:
     password = input("Please input your password: ")
-    if len(password) >= 8 and password.isupper == False and password.isunder == True and password.isalpha == False and password.isdigit == False and password.isalnum == True:
+    if len(password) >= 8 and password.isupper == False and password.isunder == False and password.isalpha == False and password.isdigit == False and password.isalnum == True:
         print("Password is valid")
         break
     else:
