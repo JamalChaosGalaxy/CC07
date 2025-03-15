@@ -55,6 +55,6 @@ word = "Hello World"
 reverse = word.split(" ")
 
 for word in reverse:
-    print(word[::-1])
+    word[::-1]
 
 # print("burgers"[::-1])
