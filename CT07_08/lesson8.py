@@ -53,10 +53,10 @@
 
 word = "Hello World"
 oval = word.split(" ")
-
+sentence = ""
 
 for word in oval:
-    reverse = word[::-1]
+     = word[::-1]
     
 
 
