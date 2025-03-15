@@ -52,10 +52,10 @@
 # print(password.join(" "))
 
 word = "Hello World"
-reverse = word.split(" ")
+oval = word.split(" ")
 
 for word in reverse:
     word[::-1]
-    reverse(reverse)
+    reverse())
 
 # print("burgers"[::-1])
