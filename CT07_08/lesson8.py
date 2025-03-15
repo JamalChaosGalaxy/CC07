@@ -1,4 +1,5 @@
 # isdigit
 # isalpha = check if all the characters in a variable are 
-# is
+# isalnum = only nums and alphabet letters and not special character
+
 
