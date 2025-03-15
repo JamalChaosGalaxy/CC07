@@ -27,4 +27,5 @@ has_num = not(password.isalpha())
 has_alpha = not(password.isalnum())
 
 if (password.isalnum() and len(password) >= 8 and has_upper and has_lower and has_num):
-    print
+    print("Password valid")
+else 
