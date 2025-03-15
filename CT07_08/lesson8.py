@@ -52,5 +52,6 @@
 # print(password.join(" "))
 
 word = "Hello World"
+reverse = 
 
 print("burgers"[::-1])
