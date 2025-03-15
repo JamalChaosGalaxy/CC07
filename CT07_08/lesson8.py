@@ -1,3 +1,3 @@
 # isdigit
-# isalpha + 
+# isalpha = check if all 
 
