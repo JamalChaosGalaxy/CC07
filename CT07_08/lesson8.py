@@ -51,4 +51,4 @@
 
 # print(password.join(" "))
 
-print("burgers"[::1])
+print("burgers"[::-1])
