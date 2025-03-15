@@ -31,4 +31,4 @@
 # else:
 #     print("Password invalid")
 
-sentence = 
+sentence = input("What is your sentence")
