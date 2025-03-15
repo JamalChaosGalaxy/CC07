@@ -46,3 +46,5 @@
         
 # print(mocked_sentence)
 
+password = "hello world"
+print()
