@@ -5,4 +5,4 @@
 # islower = checks if the letters are lowercase
 # and, or , not
 
-password = input("Please input your ")
+password = input("Please input your passport ")
