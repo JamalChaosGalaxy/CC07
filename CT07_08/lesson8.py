@@ -31,18 +31,18 @@
 # else:
 #     print("Password invalid")
 
-sentence = input("What is your sentence?")
-mocked_sentence = ""
-upper = True
-lower = False
+# sentence = input("What is your sentence?")
+# mocked_sentence = ""
+# upper = True
+# lower = False
 
-for char in sentence:
-    if upper == True:
-        mocked_sentence += char.lower()
-        upper = False
-    if lower == True:
-        mocked_sentence += char.upper()
-        upper = True
+# for char in sentence:
+#     if upper == True:
+#         mocked_sentence += char.lower()
+#         upper = False
+#     if lower == True:
+#         mocked_sentence += char.upper()
+#         upper = True
         
-print(mocked_sentence)
+# print(mocked_sentence)
 
