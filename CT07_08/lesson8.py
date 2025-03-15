@@ -15,4 +15,5 @@
 #         print("Password is invalid")
 
 is8_char_long = False
-
+has_upper = False
+has_lower = False
