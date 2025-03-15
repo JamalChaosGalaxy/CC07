@@ -12,4 +12,4 @@ while True:
         print("Password is valid")
         break
     else:
-        print
+        print("Password is invalid")
