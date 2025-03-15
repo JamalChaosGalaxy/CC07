@@ -44,6 +44,6 @@ for char in sentence:
     if lower == True:
         mocked_sentence += char.upper()
         upper = True
-        lower == False
+        lower = False
 
 
