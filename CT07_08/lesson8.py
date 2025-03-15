@@ -40,10 +40,9 @@ for char in sentence:
     if upper == True:
         mocked_sentence += char.lower()
         upper = False
-        lower = True
     if lower == True:
         mocked_sentence += char.upper()
         upper = True
-        lower = False
-
+        
+pr
 
