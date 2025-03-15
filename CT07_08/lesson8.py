@@ -22,4 +22,4 @@ only_alnum = False
 
 password = input("Please enter your password: ")
 has_upper = not(password.islower())
-has_upper = not(password.islower())
+has_lower = not(password.ishigher())
