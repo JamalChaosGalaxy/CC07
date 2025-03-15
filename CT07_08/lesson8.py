@@ -32,6 +32,13 @@
 #     print("Password invalid")
 
 sentence = input("What is your sentence?")
+mocked_sentence = ""
 upper = True
 lower = False
+
+for char in sentence:
+    if upper == True:
+        mocked_sentence += char.lower()
+
+
 
