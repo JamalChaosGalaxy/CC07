@@ -57,7 +57,7 @@ oval = word.split(" ")
 
 for word in oval:
     reverse = word[::-1]
-    reverse = " "
+    reverse = " ".join(reverse)
     
 
 
