@@ -43,3 +43,14 @@
 # if lives > 0:
 #     print("Congrats you have completed the quiz!")
 
+# line = "ROBLOX,USD,0,813345,4.5,Games"
+# words = line.split(",")
+# print(words[1])
+
+
+import math
+
+score = [90, 45, 56, 61, 79, 89, 92, 86, 74, 64, 59]
+
+maximum = math.max(max)
+minimum = math.min(min)
