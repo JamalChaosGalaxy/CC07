@@ -32,4 +32,6 @@
 #     print("Password invalid")
 
 sentence = input("What is your sentence?")
-upper = 
+upper = True
+lower = False
+
