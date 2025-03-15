@@ -47,4 +47,4 @@
 # print(mocked_sentence)
 
 password = "hello world"
-print()
+print(password.split(","))
