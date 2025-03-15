@@ -57,7 +57,7 @@ sentence = ""
 
 for word in oval:
     reverse = word[::-1]
-    sentence += 
+    sentence += reverse
     
 
 
