@@ -17,4 +17,5 @@
 is8_char_long = False
 has_upper = False
 has_lower = False
-has_num = 
+has_num = False
+
