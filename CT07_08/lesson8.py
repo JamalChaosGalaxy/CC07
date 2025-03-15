@@ -14,4 +14,5 @@
 #     else:
 #         print("Password is invalid")
 
-is8_char
+is8_char_long = False
+
