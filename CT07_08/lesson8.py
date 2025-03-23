@@ -102,4 +102,4 @@ for word in sentence:
         palindrones + 1
 print("Output: ")
 print(palindrones, "palindromes detected")
-
+print()
