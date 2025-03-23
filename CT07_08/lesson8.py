@@ -94,4 +94,5 @@ ListOfPalindrome = []
 for word in list:
     is_palindrome = word == word[::-1]
     if(is_palindrome):
-        NumOfPalindrome
+        NumOfPalindrome += 1
+        L
