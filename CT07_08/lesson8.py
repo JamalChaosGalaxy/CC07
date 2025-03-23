@@ -115,9 +115,9 @@ sales_data = [
     ["Mango", 20, 2.99]
 ]
 
-
+earned = []
 for fruits in sales_data:
     fruits, sold, price = fruits
-
+    
 
 
