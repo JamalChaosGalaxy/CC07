@@ -88,17 +88,23 @@
 #     is_palindrome = word == word[::-1]
 #     print(f"Output: ",is_palindrome)
 
-NumOfPalindrome = 0
-ListOfPalindrome = []
 
-for word in list:
-    is_palindrome = word == word[::-1]
-    if(is_palindrome):
-        NumOfPalindrome += 1
-        ListOfPalindrome.append(word)
 
-print(NumOfPalindrome)
-print(ListOfPalindrome)
 
-for word in ListOfPalindrome:
-    print(word)
+# NumOfPalindrome = 0
+# ListOfPalindrome = []
+
+# for word in list:
+#     is_palindrome = word == word[::-1]
+#     if(is_palindrome):
+#         NumOfPalindrome += 1
+#         ListOfPalindrome.append(word)
+
+# print(NumOfPalindrome)
+# print(ListOfPalindrome)
+
+# for word in ListOfPalindrome:
+#     print(word)
+
+
+
