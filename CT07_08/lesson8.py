@@ -57,7 +57,7 @@ sentence = []
 
 for word in oval:
     sentence.append(word[::-1])
-sentence = "".join(sentence)
+sentence = " ".join(sentence)
 print(sentence)
     
 
