@@ -82,8 +82,10 @@
 while True:
     word = input("Input: ")
 
+    if (word == "end"):
+        break
+
     is_palindrome = word == word[::-1]
     print(f"Output: ",is_palindrome)
 
-    if (word == "end"):
-        break
+    
