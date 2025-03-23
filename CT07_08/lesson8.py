@@ -147,4 +147,6 @@ while True:
         name = input("Enter Username: ")
         username.append(name)
         word = input("Enter Password: ")
-        username.append(word)
+        password.append(word)
+        U = input("Enter Username: ")
+        username.append(name)
