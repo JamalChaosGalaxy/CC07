@@ -85,5 +85,5 @@ while True:
     is_palindrome = word == word[::-1]
     print(f"Output: ",is_palindrome)
 
-    if word == "end":
+    if (word == "end"):
         break
