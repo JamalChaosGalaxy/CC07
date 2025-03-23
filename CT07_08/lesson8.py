@@ -88,3 +88,4 @@
 #     is_palindrome = word == word[::-1]
 #     print(f"Output: ",is_palindrome)
 
+sentence = input()
