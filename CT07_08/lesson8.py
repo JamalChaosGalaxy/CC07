@@ -126,5 +126,7 @@ max_value = 0
 for price in earned:
     max_value = price
     if(max_value < price):
-        max_value 
+        max_value = price
+
+ 
 
