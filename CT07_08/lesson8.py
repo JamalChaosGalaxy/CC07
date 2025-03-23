@@ -64,3 +64,4 @@
 
 # print("burgers"[::-1])
 
+word = input("")
