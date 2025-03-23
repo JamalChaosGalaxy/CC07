@@ -116,3 +116,5 @@ sales_data = [
 ]
 
 print("Top 3 selling fruits: ")
+
+
