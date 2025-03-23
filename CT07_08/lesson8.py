@@ -89,4 +89,4 @@
 #     print(f"Output: ",is_palindrome)
 
 NumOfPalindrome = 0
-
+ListOfPalindrome = []
