@@ -115,10 +115,5 @@ sales_data = [
     ["Mango", 20, 2.99]
 ]
 
-print("Top 3 selling fruits: ")
 
-for fruit in sales_data:
-    fruit = "Name", "Units_sold", "Price"
-
-    total_revenue = 
 
