@@ -151,6 +151,6 @@ while True:
         Url = input("Enter Website Url: ")
     if code == "s":
         search = input("Enter search keyword: ")
-        for skibidi in data:
-            if search == skibidi:
+        for skidata in skibidi:
+            if search == skidata:
                 print
