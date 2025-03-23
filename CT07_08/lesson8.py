@@ -116,6 +116,7 @@ sales_data = [
 ]
 
 earned = []
+sorted_price = []
 for fruits in sales_data:
     fruit, sold, price = fruits
     earned.append(sold * price)
