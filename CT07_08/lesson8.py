@@ -124,5 +124,7 @@ for fruits in sales_data:
 top_fruits = []
 max_value = 0
 for price in earned:
-    max = price
+    max_value = price
+    if(max_value < price):
+        max_value 
 
