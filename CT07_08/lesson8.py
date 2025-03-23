@@ -143,13 +143,13 @@ while True:
     if code == "q": 
         break
     if code == "a":
+        for skibidi in data:
+            name, password, url = skibidi
         name = input("Enter Username: ")
-        skibidi.append(name)
         word = input("Enter Password: ")
-        skibidi.append(word)
         Url = input("Enter Website Url: ")
-        skibidi.append(Url)
-        data.append(skibidi)
     if code == "s":
         search = input("Enter search keyword: ")
-        for 
+        for skibidi in data:
+            if search == skibidi:
+                print
