@@ -151,4 +151,5 @@ while True:
         Url = input("Enter Website Url: ")
         website_urls.append(Url)
     if code == "s":
-        search = input("Enter search word")
+        search = input("Enter search keyword: ")
+        
