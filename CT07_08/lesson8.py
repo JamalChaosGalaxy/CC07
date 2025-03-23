@@ -90,7 +90,8 @@
 
 words = []
 palindrones = 0
-sentence = input("Input: Please provide a sentence: ")
+print("Input")
+sentence = input("Please provide a sentence: ")
 
 sentence.split(' ')
 words.append(sentence)
