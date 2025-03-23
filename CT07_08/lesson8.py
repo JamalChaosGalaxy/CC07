@@ -107,31 +107,33 @@
 #     print(word)
 
 
-sales_data = [
-    ["Apple", 50, 1.99],
-    ["Banana", 45, 0.99],
-    ["Orange", 30, 2.49],
-    ["Grapefruit", 25, 3.99],
-    ["Mango", 20, 2.99],
-]
+# sales_data = [
+#     ["Apple", 50, 1.99],
+#     ["Banana", 45, 0.99],
+#     ["Orange", 30, 2.49],
+#     ["Grapefruit", 25, 3.99],
+#     ["Mango", 20, 2.99],
+# ]
 
-earned = []
-for fruits in sales_data:
-    fruit, sold, price = fruits
-    earned.append(sold * price)
+# earned = []
+# for fruits in sales_data:
+#     fruit, sold, price = fruits
+#     earned.append(sold * price)
 
 
-top_fruits = []
-max_value = 0
-for price in earned:
-    max_value = price
-    if(max_value < price):
-        max_value = price
+# top_fruits = []
+# max_value = 0
+# for price in earned:
+#     max_value = price
+#     if(max_value < price):
+#         max_value = price
 
-print(max_value)
+# print(max_value)
 
-for fruits in sales_data:
-    fruit_Max = fruits[earned.index(max_value)]
+# for fruits in sales_data:
+#     fruit_Max = fruits[earned.index(max_value)]
 
-print(fruit_Max)
+# print(fruit_Max)
+
+
 
