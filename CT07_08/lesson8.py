@@ -122,6 +122,7 @@ for fruits in sales_data:
 
 
 top_fruits = []
-max
-
+max_value = 0
+for price in earned:
+    max = price
 
