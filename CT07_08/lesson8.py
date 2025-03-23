@@ -145,3 +145,5 @@ while True:
         break
     if code == "a":
         name = input("Enter Username: ")
+        username.append(name)
+        
