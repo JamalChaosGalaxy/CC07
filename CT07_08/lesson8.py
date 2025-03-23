@@ -120,5 +120,5 @@ print("Top 3 selling fruits: ")
 for fruit in sales_data:
     fruit = "Name", "Units_sold", "Price"
 
-    
+    total_revenue = 
 
