@@ -98,4 +98,7 @@ for word in list:
         ListOfPalindrome.append(word)
 
 print(NumOfPalindrome)
-print(l)
+print(ListOfPalindrome)
+
+for word in ListOfPalindrome:
+    print(word)
