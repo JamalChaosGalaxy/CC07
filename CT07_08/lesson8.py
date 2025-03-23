@@ -97,4 +97,5 @@ for word in list:
         NumOfPalindrome += 1
         ListOfPalindrome.append(word)
 
-print(N)
+print(NumOfPalindrome)
+print(l)
