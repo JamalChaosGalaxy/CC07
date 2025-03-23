@@ -64,6 +64,9 @@
 
 # print("burgers"[::-1])
 
+is_palindrome = word == word[::-1]
+print(f"Output: ",is_palindrome)
+
 word = input("Input: ")
 
 is_palindrome = word == word[::-1]
