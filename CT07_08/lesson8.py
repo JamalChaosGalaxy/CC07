@@ -121,7 +121,7 @@ for fruits in sales_data:
     fruit, sold, price = fruits
     earned.append(sold * price)
 
-sorted_price = earned.sorted()
+sorted_price = earned.sort()
 
 print(earned)
 
