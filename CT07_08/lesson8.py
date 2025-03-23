@@ -135,5 +135,9 @@
 
 # print(fruit_Max)
 
+username = []
+password = []
+website_urls = []
 
-
+while True:
+    code = 
