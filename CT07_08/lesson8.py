@@ -101,4 +101,5 @@ for word in sentence:
     if is_palindrome == True:
         palindrones + 1
 print("Output: ")
-print(palindrones, "pla")
+print(palindrones, "palindromes detected")
+
