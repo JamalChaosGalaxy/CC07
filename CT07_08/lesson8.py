@@ -140,4 +140,4 @@ password = []
 website_urls = []
 
 while True:
-    code = input()
+    code = input("Enter '")
