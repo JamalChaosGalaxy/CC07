@@ -144,4 +144,4 @@ while True:
     if code == "q": 
         break
     if code == "a":
-        name = input()
+        name = input("Enter Username: ")
