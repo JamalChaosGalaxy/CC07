@@ -130,6 +130,6 @@ for price in earned:
 
 print(max_value)
 
-for fruit, sold, price in sales_data:
+for fruits in sales_data:
     fruit_Max = fruit
 
