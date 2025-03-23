@@ -128,5 +128,6 @@ for price in earned:
     if(max_value < price):
         max_value = price
 
- 
+print(max_value)
+
 
