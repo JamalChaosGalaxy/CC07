@@ -117,4 +117,5 @@ sales_data = [
 
 print("Top 3 selling fruits: ")
 
-print(1)
+for fruit in sales_data:
+    fruit = ""
