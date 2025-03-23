@@ -92,3 +92,4 @@ words = []
 sentence = input("Please provide a sentence: ")
 
 sentence.split(' ')
+words.append(sentence)
