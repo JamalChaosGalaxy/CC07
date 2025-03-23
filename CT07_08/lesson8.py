@@ -66,4 +66,4 @@
 
 word = input("What is your word?")
 
-is_
+is_palindrome = word == word[::-1]
