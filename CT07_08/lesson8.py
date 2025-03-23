@@ -118,4 +118,7 @@ sales_data = [
 print("Top 3 selling fruits: ")
 
 for fruit in sales_data:
-    fruit = "Name", "Units_sold", ""
+    fruit = "Name", "Units_sold", "Price"
+
+    
+
