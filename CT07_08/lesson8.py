@@ -146,4 +146,5 @@ while True:
     if code == "a":
         name = input("Enter Username: ")
         username.append(name)
-        
+        word = input("Enter Password: ")
+        username.append(word)
