@@ -67,4 +67,4 @@
 word = input("Input: ")
 
 is_palindrome = word == word[::-1]
-print("Output: "is_palindrome)
+print(f"Output: ", is_palindrome)
