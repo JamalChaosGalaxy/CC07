@@ -101,8 +101,8 @@ for word in sentence:
     is_palindrome = word == word[::-1]
     if is_palindrome == True:
         palindrones + 1
-    palindromes
+    palindromes.append(word)
 
 print("Output: ")
 print(palindrones, "palindromes detected")
-print()
+print(palindromes)
