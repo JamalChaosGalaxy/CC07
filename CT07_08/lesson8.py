@@ -121,6 +121,7 @@ for fruits in sales_data:
     earned.append(sold * price)
 
 
-print(earned)
+top_fruits = []
+max
 
 
