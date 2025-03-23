@@ -107,4 +107,6 @@
 #     print(word)
 
 
-
+sales_data = [
+    []
+]
