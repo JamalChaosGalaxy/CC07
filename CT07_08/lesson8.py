@@ -133,5 +133,5 @@ print(max_value)
 for fruits in sales_data:
     fruit_Max = fruits[earned.index(max_value)]
 
-print()
+print(fruit_Max)
 
