@@ -89,6 +89,7 @@
 #     print(f"Output: ",is_palindrome)
 
 words = []
+palindromes = []
 palindrones = 0
 print("Input")
 sentence = input("Please provide a sentence: ")
@@ -100,7 +101,8 @@ for word in sentence:
     is_palindrome = word == word[::-1]
     if is_palindrome == True:
         palindrones + 1
-        
+    
+
 print("Output: ")
 print(palindrones, "palindromes detected")
 print()
