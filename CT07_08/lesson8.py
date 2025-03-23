@@ -117,6 +117,6 @@ sales_data = [
 
 for fruits in sales_data:
     fruits, sold, price = fruits
-    print(fruit)
+    print(fruits)
 
 
