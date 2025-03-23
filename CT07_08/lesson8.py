@@ -154,4 +154,5 @@ while True:
         for skidata in skibidi:
             if search == skidata:
                 print(skibidi)
-        
+    if code == "d":
+        print(skibidi)
