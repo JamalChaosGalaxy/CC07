@@ -153,4 +153,5 @@ while True:
         search = input("Enter search keyword: ")
         for skidata in skibidi:
             if search == skidata:
-                print
+                print(skibidi)
+        
