@@ -115,4 +115,4 @@ sales_data = [
     ["Mango", 20, 2.99]
 ]
 
-print()
+print("Top 3 selling fruits: ")
