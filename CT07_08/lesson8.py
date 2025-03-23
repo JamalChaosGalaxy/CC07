@@ -96,4 +96,5 @@ for word in list:
     if(is_palindrome):
         NumOfPalindrome += 1
         ListOfPalindrome.append(word)
-        
+
+print(N)
