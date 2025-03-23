@@ -108,11 +108,11 @@
 
 
 sales_data = [
-    ["Apple", 50, 1.99]
-    ["Banana", 45, 0.99]
-    ["Orange", 30, 2.49]
-    ["Grapefruit", 25, 3.99]
-    ["Mango", 20, 2.99]
+    ["Apple", 50, 1.99],
+    ["Banana", 45, 0.99],
+    ["Orange", 30, 2.49],
+    ["Grapefruit", 25, 3.99],
+    ["Mango", 20, 2.99],
 ]
 
 earned = []
