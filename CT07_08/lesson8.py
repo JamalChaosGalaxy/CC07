@@ -111,5 +111,5 @@ sales_data = [
     ["Apple", 50, 1.99]
     ["Banana", 45, 0.99]
     ["Orange", 30, 2.49]
-    
+    ["Grapefruit", ]
 ]
