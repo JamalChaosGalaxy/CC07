@@ -135,9 +135,8 @@
 
 # print(fruit_Max)
 
-username = []
-password = []
-website_urls = []
+data = []
+skibidi = []
 
 while True:
     code = input("Enter 'a' to add, 's' to search, 'd' to display, or 'q' to quit: ")
@@ -145,11 +144,12 @@ while True:
         break
     if code == "a":
         name = input("Enter Username: ")
-        username.append(name)
+        skibidi.append(name)
         word = input("Enter Password: ")
-        password.append(word)
+        skibidi.append(word)
         Url = input("Enter Website Url: ")
-        website_urls.append(Url)
+        skibidi.append(Url)
+        data.append(skibidi)
     if code == "s":
         search = input("Enter search keyword: ")
-        
+        for 
