@@ -117,7 +117,7 @@ sales_data = [
 
 earned = []
 for fruits in sales_data:
-    fruits, sold, price = fruits
+    fruit, sold, price = fruits
     earned.append(sold * price)
 
 print(earned)
