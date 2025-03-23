@@ -90,3 +90,4 @@
 
 sentence = input("Please provide a sentence: ")
 
+sentence.split("")
