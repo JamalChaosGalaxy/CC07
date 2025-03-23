@@ -144,7 +144,8 @@ while True:
         break
     if code == "a":
         for skibidi in data:
-            name, password, url = skibidi
+            for skidata in skibidi:
+                name, password, url = skidata
         name = input("Enter Username: ")
         word = input("Enter Password: ")
         Url = input("Enter Website Url: ")
