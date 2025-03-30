@@ -44,5 +44,7 @@ for word in splitted_input:
         isCorrect = True
 
 if isCorrect:
-    print
+    print("Correct!")
+else:
+    print("")
 
