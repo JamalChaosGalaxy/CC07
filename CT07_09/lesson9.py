@@ -68,6 +68,8 @@ for i in range(-290,310,25):
     pen.setx(i)
     pen.stamp()
 
+
+
 # pen.speed(10)
 # pen.seth(0)
 
