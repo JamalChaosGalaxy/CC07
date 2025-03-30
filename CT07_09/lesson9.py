@@ -77,6 +77,8 @@ pen.hideturtle()
 
 Sally = turtle.Turtle()
 Sally.penup()
+Sally.seth(0)
+
 
 # pen.speed(10)
 # pen.seth(0)
