@@ -54,8 +54,8 @@
 import turtle
 world = turtle.Screen()
 
-turtle.setup(width=600, height=400)
+window.setup(width=600, height=400)
 
-turtle.bgcolor("green")
+window.bgcolor("green")
 
 window.mainloop()
