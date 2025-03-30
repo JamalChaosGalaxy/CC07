@@ -23,6 +23,13 @@ userInput = userInput.lower
 userInput.split()
 skill.append(userInput)
 
+for word in skill:
+    if word == "egg":
+        isCorrect = True
+
+if isCorrect == True:
+    print("")
+
 
 
 
