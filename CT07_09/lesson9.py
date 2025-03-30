@@ -88,8 +88,10 @@ Bob.penup()
 Bob.seth(90)
 Bob.shape("turtle")
 Bob.color("blue")
-Sally.goto(-200,-250)
-Sally.write("Sally", align="center", font=("Ariel",20))
+Bob.goto(-200,-250)
+Bob.write("Sally", align="center", font=("Ariel",20))
+
+
 
 # pen.speed(10)
 # pen.seth(0)
