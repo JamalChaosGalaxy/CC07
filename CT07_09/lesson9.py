@@ -34,8 +34,7 @@
 
 userInput = input("What must be broken in order to be used?")
 
-
-
+isCorrect = False
 
 
 
