@@ -60,4 +60,8 @@ window.bgcolor("green")
 
 t = turtle.Turtle
 
+t.shape("turtle")
+t.fillcolor("orange")
+t.speed(10)
+
 window.mainloop()
