@@ -71,6 +71,6 @@ for i in range(-300,300,25):
 # pen.speed(10)
 # pen.seth(0)
 
-pen.pendown()
+# pen.pendown()
 
 window.mainloop()
