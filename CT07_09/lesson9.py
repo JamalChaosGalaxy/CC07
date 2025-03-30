@@ -52,18 +52,18 @@
 
 # Turtle
 import turtle
-window = turtle.Screen()
-
-window.setup(600,400)
-
-window.bgcolor("green")
-
-pen = turtle.Turtle
-pen.penup()
-
-pen.shape("square")
-pen.fillcolor("black")
-
+window = turtle.Screen()    
+    
+window.setup(600,400)   
+    
+window.bgcolor("green") 
+    
+pen = turtle.Turtle 
+pen.penup() 
+    
+pen.shape("square") 
+pen.fillcolor("black")  
+    
 # pen.speed(10)
 # pen.seth(0)
 
