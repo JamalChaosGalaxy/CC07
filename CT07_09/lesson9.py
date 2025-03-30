@@ -34,19 +34,19 @@
 
 
 # Correct answer:
-userInput = input("What must be broken in order to be used?")
+# userInput = input("What must be broken in order to be used?")
 
-isCorrect = False
+# isCorrect = False
 
-lowercase_userInput = userInput.lower()
-splitted_input = lowercase_userInput.split()
+# lowercase_userInput = userInput.lower()
+# splitted_input = lowercase_userInput.split()
 
-for word in splitted_input:
-    if word == "egg":
-        isCorrect = True
+# for word in splitted_input:
+#     if word == "egg":
+#         isCorrect = True
 
-if isCorrect:
-    print("Correct!")
-else:
-    print("Wrong")
+# if isCorrect:
+#     print("Correct!")
+# else:
+#     print("Wrong")
 
