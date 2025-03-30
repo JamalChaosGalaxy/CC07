@@ -65,4 +65,6 @@ t.fillcolor("orange")
 t.speed(10)
 t.seth(0)
 
+t.pendown()
+
 window.mainloop()
