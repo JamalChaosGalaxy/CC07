@@ -28,7 +28,9 @@ for word in skill:
         isCorrect = True
 
 if isCorrect == True:
-    print("")
+    print("Correct! Well done")
+else:
+    print()
 
 
 
