@@ -54,7 +54,7 @@
 import turtle
 window = turtle.Screen()    
 
-window.setup(600,400)   
+window.setup(600,600)   
 
 window.bgcolor("green") 
 
