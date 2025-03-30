@@ -15,22 +15,24 @@
 
 # Input Processing
 
-skill = []
-isCorrect = False
+# skill = []
+# isCorrect = False
 
-userInput = input("What has to be broken before you can use it?")
-userInput = userInput.lower
-userInput.split()
-skill.append(userInput)
+# userInput = input("What has to be broken before you can use it?")
+# userInput = userInput.lower
+# userInput.split()
+# skill.append(userInput)
 
-for word in skill:
-    if word == "egg":
-        isCorrect = True
+# for word in skill:
+#     if word == "egg":
+#         isCorrect = True
 
-if isCorrect == True:
-    print("Correct! Well done")
-else:
-    print("That's not correct. Try Again")
+# if isCorrect == True:
+#     print("Correct! Well done")
+# else:
+#     print("That's not correct. Try Again")
+
+
 
 
 
