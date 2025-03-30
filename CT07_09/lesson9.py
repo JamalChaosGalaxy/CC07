@@ -65,7 +65,7 @@ pen.shape("square")
 pen.sety(250) 
 pen.fillcolor("black")  
 for i in range(-300,300,25):
-    
+    pen.setx(i)
 
 # pen.speed(10)
 # pen.seth(0)
