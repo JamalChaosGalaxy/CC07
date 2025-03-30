@@ -32,6 +32,8 @@
 # else:
 #     print("That's not correct. Try Again")
 
+
+
 userInput = input("What must be broken in order to be used?")
 
 isCorrect = False
@@ -46,5 +48,5 @@ for word in splitted_input:
 if isCorrect:
     print("Correct!")
 else:
-    print("")
+    print("Wrong")
 
