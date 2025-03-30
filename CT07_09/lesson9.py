@@ -58,9 +58,9 @@ window.setup(600,400)
 
 window.bgcolor("green")
 
-t = turtle.Turtle
+pen = turtle.Turtle
 
-t.shape("turtle")
+pen.shape("turtle")
 t.fillcolor("orange")
 t.speed(10)
 t.seth(0)
