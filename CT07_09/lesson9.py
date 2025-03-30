@@ -58,6 +58,6 @@ window.setup(600,400)
 
 window.bgcolor("green")
 
-t = t
+t = turtle.Turtle
 
 window.mainloop()
