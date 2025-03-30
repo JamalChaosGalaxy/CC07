@@ -13,4 +13,5 @@
 # print(is_palindrome(word))
 
 
-# 
+# Input Processing
+
