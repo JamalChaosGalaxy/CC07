@@ -19,8 +19,9 @@ skill = []
 isCorrect = False
 
 userInput = input("What has to be broken before you can use it?")
-
+skill.append(userInput)
 userInput = userInput.lower
+
 
 
 
