@@ -42,5 +42,7 @@ splitted_input = lowercase_userInput.split()
 for word in splitted_input:
     if word == "egg":
         isCorrect = True
-        
+
+if isCorrect:
+    print
 
