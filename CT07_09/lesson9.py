@@ -63,6 +63,6 @@ t = turtle.Turtle
 t.shape("turtle")
 t.fillcolor("orange")
 t.speed(10)
-
+turtle.seth(90)
 
 window.mainloop()
