@@ -83,7 +83,13 @@ Sally.color("red")
 Sally.goto(0, -250)
 Sally.write("Sally", align="center", font=("Ariel",20))
 
-
+Sally = turtle.Turtle()
+Sally.penup()
+Sally.seth(90)
+Sally.shape("turtle")
+Sally.color("red")
+Sally.goto(0, -250)
+Sally.write("Sally", align="center", font=("Ariel",20))
 
 # pen.speed(10)
 # pen.seth(0)
