@@ -70,6 +70,7 @@ for i in range(-290,310,25):
 
 pen.goto(-300,-250)
 pen.color("yellow")
+pen.pendown()
 pen.seth(0)
 pen.penup(600)
 pen.hideturtle()
