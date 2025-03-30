@@ -51,3 +51,4 @@
 #     print("Wrong")
 
 import turtle
+world = 
