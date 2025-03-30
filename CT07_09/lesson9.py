@@ -71,6 +71,7 @@ for i in range(-290,310,25):
 pen.goto(-300,250)
 pen.color("yellow")
 pen.seth(0)
+pen.
 
 # pen.speed(10)
 # pen.seth(0)
