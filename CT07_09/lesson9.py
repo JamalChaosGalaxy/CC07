@@ -59,7 +59,7 @@ window.setup(600,400)
 window.bgcolor("green")
 
 pen = turtle.Turtle
-pen.
+pen.penup()
 
 pen.shape("square")
 pen.fillcolor("black")
