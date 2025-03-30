@@ -91,7 +91,13 @@ Bob.color("blue")
 Bob.goto(-200,-250)
 Bob.write("Sally", align="center", font=("Ariel",20))
 
-
+Keith = turtle.Turtle()
+Bob.penup()
+Bob.seth(90)
+Bob.shape("turtle")
+Bob.color("blue")
+Bob.goto(-200,-250)
+Bob.write("Sally", align="center", font=("Ariel",20))
 
 # pen.speed(10)
 # pen.seth(0)
