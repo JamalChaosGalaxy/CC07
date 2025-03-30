@@ -52,9 +52,9 @@
 
 # Turtle
 import turtle
-world = turtle.Screen()
+window = turtle.Screen()
 
-window.setup(width=600, height=400)
+window.setup(600,400)
 
 window.bgcolor("green")
 
