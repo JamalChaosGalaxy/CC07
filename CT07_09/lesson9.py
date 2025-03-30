@@ -53,4 +53,4 @@
 import turtle
 world = turtle.Screen()
 
-turtle.setup()
+turtle.setup(width=600, height=400)
