@@ -61,10 +61,10 @@ window.bgcolor("green")
 pen = turtle.Turtle
 
 pen.shape("turtle")
-t.fillcolor("orange")
-t.speed(10)
-t.seth(0)
+pen.fillcolor("orange")
+pen.speed(10)
+pen.seth(0)
 
-t.pendown()
+pen.pendown()
 
 window.mainloop()
