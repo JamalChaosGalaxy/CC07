@@ -60,7 +60,7 @@ window.bgcolor("green")
 
 pen = turtle.Turtle
 
-pen.shape("turtle")
+pen.shape("square")
 pen.fillcolor("orange")
 pen.speed(10)
 pen.seth(0)
