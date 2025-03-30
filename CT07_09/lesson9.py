@@ -77,7 +77,7 @@ pen.hideturtle()
 
 Sally = turtle.Turtle()
 Sally.penup()
-Sally.seth(0)
+Sally.seth(90)
 Sally.shape("turtle")
 Sally.color("red")
 Sally.goto(0, -250)
