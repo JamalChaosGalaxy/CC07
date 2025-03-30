@@ -37,5 +37,5 @@ userInput = input("What must be broken in order to be used?")
 isCorrect = False
 
 lowercase_userInput = userInput.lower()
-splitted_input
+splitted_input = lowercase_userInput.split()
 
