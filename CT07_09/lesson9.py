@@ -15,4 +15,5 @@
 
 # Input Processing
 
-userInput = input()
+userInput = input("What has to be broken before you can use it?")
+
