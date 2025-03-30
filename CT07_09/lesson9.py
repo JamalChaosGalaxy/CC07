@@ -72,7 +72,7 @@ pen.goto(-300,250)
 pen.color("yellow")
 pen.seth(0)
 pen.penup(600)
-pen.
+pen.hideturtle()
 
 # pen.speed(10)
 # pen.seth(0)
