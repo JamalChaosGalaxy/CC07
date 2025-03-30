@@ -68,8 +68,7 @@ for i in range(-290,310,25):
     pen.setx(i)
     pen.stamp()
 
-t = turtle.Turtle()
-t.goto()
+t.goto(-300,250)
 
 # pen.speed(10)
 # pen.seth(0)
