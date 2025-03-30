@@ -62,8 +62,9 @@ pen = turtle.Turtle
 
 pen.shape("square")
 pen.fillcolor("black")
-pen.speed(10)
-pen.seth(0)
+
+# pen.speed(10)
+# pen.seth(0)
 
 pen.pendown()
 
