@@ -81,7 +81,7 @@ Sally.seth(0)
 Sally.shape("turtle")
 Sally.color("red")
 Sally.goto(0, -250)
-Sally.write()
+Sally.write("Sally")
 
 # pen.speed(10)
 # pen.seth(0)
