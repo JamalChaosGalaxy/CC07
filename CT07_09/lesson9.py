@@ -72,7 +72,7 @@ pen.goto(-300,-250)
 pen.color("yellow")
 pen.pendown()
 pen.seth(0)
-pen.penup(600)
+pen.forward(600)
 pen.hideturtle()
 
 # pen.speed(10)
