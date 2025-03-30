@@ -51,4 +51,6 @@
 #     print("Wrong")
 
 import turtle
-world = 
+world = turtle.Screen()
+
+turtle.setup()
