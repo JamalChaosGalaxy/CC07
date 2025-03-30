@@ -88,7 +88,7 @@ Sally.penup()
 Sally.seth(90)
 Sally.shape("turtle")
 Sally.color("blue")
-Sally.goto()
+Sally.goto(-200,-250)
 Sally.write("Sally", align="center", font=("Ariel",20))
 
 # pen.speed(10)
