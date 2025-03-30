@@ -30,7 +30,7 @@ for word in skill:
 if isCorrect == True:
     print("Correct! Well done")
 else:
-    print()
+    print("That's not correct. Try Again")
 
 
 
