@@ -54,6 +54,7 @@
 import turtle
 
 winner = []
+ycor = 250
 
 window = turtle.Screen()    
 
