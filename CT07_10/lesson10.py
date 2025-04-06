@@ -13,4 +13,6 @@ def alert():
     print("Motion Detected")
 
 i = 0
-whi;e
+while i < 4:
+    alert()
+    i+=1
