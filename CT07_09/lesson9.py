@@ -112,7 +112,10 @@ while True:
     Sally.seth(Sally.randint(75, 115))
     Bob.seth(Bob.randint(75, 115))
     Keith.seth(Keith.randint(75, 115))
+    break
 
+while True:
+    Sally.forward()
 
 # pen.speed(10)
 # pen.seth(0)
