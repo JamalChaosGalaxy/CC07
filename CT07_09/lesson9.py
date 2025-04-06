@@ -119,7 +119,12 @@ while True:
     Sally.forward(Sally.randint(1, 20))
     Bob.forward(Bob.randint(1, 20))
     Keith.forward(Keith.randint(1, 20))
+    break
 
+while True:
+    if Sally.ycor > 250:
+        winner.append(Sally)
+        print(w)
 
 
 # pen.speed(10)
