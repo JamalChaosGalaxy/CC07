@@ -104,6 +104,7 @@ Keith.write("Keith", align="center", font=("Ariel",20))
 
 guess = input("Guess the winner!")
  
+Sally.pendown()
 
 
 # pen.speed(10)
