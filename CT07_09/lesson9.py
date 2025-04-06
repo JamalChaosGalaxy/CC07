@@ -109,7 +109,7 @@ Bob.pendown()
 Keith.pendown()
 
 while True:
-    Sally.seth()
+    Sally.seth(Sally.randint())
 
 # pen.speed(10)
 # pen.seth(0)
