@@ -19,7 +19,7 @@
 
 import turtle
 
-t = turtle.Turtle
+t = turtle.Turtle()
 
 def square():
     for _ in range(4):
