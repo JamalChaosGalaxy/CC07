@@ -19,15 +19,10 @@
 
 import turtle
 
-window = turtle.Screen()    
-window.setup(600,600)   
-
-window.bgcolor("green") 
-pen = turtle.Turtle() 
-pen.penup() 
+t = turtle.Turtle
 
 def square():
-    turtle.forward(20)
-    turtle.left(90)
+    for _ in range(4):
+
 
 window.mainloop()
