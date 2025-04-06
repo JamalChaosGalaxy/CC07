@@ -26,4 +26,7 @@ window.bgcolor("green")
 pen = turtle.Turtle() 
 pen.penup() 
 
+def square():
+    turtle
+
 window.mainloop()
