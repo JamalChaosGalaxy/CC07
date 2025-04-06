@@ -28,6 +28,6 @@ pen.penup()
 
 def square():
     turtle.forward(20)
-    turtle.
+    turtle.left(90)
 
 window.mainloop()
