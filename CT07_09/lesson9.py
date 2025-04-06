@@ -100,7 +100,7 @@ Keith.goto(200,-250)
 Keith.write("Keith", align="center", font=("Ariel",20))
 
 guess = input("Guess the winner!")
-
+ 
 
 
 # pen.speed(10)
