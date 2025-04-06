@@ -11,3 +11,6 @@
     
 def alert():
     print("Motion Detected")
+
+i = 0
+whi;e
