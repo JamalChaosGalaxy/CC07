@@ -116,7 +116,9 @@ while True:
 
 while True:
     Sally.forward(Sally.randint(1, 20))
-    
+    Sally.forward(Sally.randint(1, 20))
+    Sally.forward(Sally.randint(1, 20))
+
 
 # pen.speed(10)
 # pen.seth(0)
