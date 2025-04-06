@@ -27,6 +27,7 @@ pen = turtle.Turtle()
 pen.penup() 
 
 def square():
-    turtle
+    turtle.forward(20)
+    turtle.
 
 window.mainloop()
