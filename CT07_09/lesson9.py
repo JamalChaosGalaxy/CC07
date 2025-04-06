@@ -116,8 +116,8 @@ while True:
 
 while True:
     Sally.forward(Sally.randint(1, 20))
-    Bob.forward(Sally.randint(1, 20))
-    Keith.forward(Sally.randint(1, 20))
+    Bob.forward(Bob.randint(1, 20))
+    Keith.forward(Keith.randint(1, 20))
 
 
 # pen.speed(10)
