@@ -109,7 +109,7 @@ Bob.pendown()
 Keith.pendown()
 
 while True:
-    Sally.seth(Sally.randint(75, 115))
+    Sally.seth(random.randint(75, 115))
     Bob.seth(Bob.randint(75, 115))
     Keith.seth(Keith.randint(75, 115))
     break
