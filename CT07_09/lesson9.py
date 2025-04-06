@@ -52,6 +52,9 @@
 
 # Turtle
 import turtle
+
+winner = []
+
 window = turtle.Screen()    
 
 window.setup(600,600)   
