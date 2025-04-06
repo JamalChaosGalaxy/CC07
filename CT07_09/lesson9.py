@@ -110,8 +110,8 @@ Keith.pendown()
 
 while True:
     Sally.seth(Sally.randint(75, 115))
-    Sally.seth(Sally.randint(75, 115))
-    Sally.seth(Sally.randint(75, 115))
+    Bob.seth(Bobally.randint(75, 115))
+    Keith.seth(Sally.randint(75, 115))
 
 
 # pen.speed(10)
