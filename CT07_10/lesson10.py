@@ -23,6 +23,8 @@ t = turtle.Turtle
 
 def square():
     for _ in range(4):
+        t.forward(20)
+        t.left(90)
 
 
 window.mainloop()
