@@ -115,7 +115,7 @@ while True:
     break
 
 while True:
-    Sally.forward()
+    Sally.forward(Sally.randint())
 
 # pen.speed(10)
 # pen.seth(0)
