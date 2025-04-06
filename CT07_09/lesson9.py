@@ -106,7 +106,10 @@ guess = input("Guess the winner!")
  
 Sally.pendown()
 Bob.pendown()
+Keith.pendown()
 
+while True:
+    Sally.seth(ran)
 
 # pen.speed(10)
 # pen.seth(0)
