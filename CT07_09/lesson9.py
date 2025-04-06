@@ -120,10 +120,10 @@ while True:
     if Sally.ycor > 250:
         winner = "Sally"
     elif Bob.ycor > 250:
-        winner = ""
+        winner = "Bob"
         print(winner)    
     else:
-        winner.append(Keith)
+        winner = "Keith"
         print(winner)   
     break
     
