@@ -28,4 +28,4 @@ def square():
 
 square()
 
-window.mainloop()
+turtle.mainloop()
