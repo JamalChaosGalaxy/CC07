@@ -26,5 +26,6 @@ def square():
         t.forward(20)
         t.left(90)
 
+square()
 
 window.mainloop()
