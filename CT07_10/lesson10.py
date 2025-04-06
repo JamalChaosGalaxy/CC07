@@ -1,5 +1,4 @@
-# 
-var1 = 200
+# var1 = 200
 
 # def f():
 #     var1 = 500
@@ -10,4 +9,5 @@ var1 = 200
 
 # f()
     
-
+def alert():
+    print
