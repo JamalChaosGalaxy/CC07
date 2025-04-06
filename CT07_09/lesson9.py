@@ -52,9 +52,8 @@
 
 # Turtle
 import turtle
-
+import random
 winner = []
-ycor = 250
 
 window = turtle.Screen()    
 
