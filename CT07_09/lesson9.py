@@ -126,9 +126,9 @@ while True:
         winner.append(Sally)
         print(winner)
     if Bob.ycor > 250:
-        winner.append(Sally)
+        winner.append(Bo)
         print(winner)    
-    if Sally.ycor > 250:
+    if Keith.ycor > 250:
         winner.append(Sally)
         print(winner)   
     
