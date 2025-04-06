@@ -10,4 +10,4 @@
 # f()
     
 def alert():
-    print
+    print("Motion Detected")
