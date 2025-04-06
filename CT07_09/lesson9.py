@@ -112,9 +112,9 @@ while True:
     Sally.seth(random.randint(75, 115))
     Bob.seth(random.randint(75, 115))
     Keith.seth(random.randint(75, 115))
-    
-    Sally.forward(Sally.randint(1, 20))
-    Bob.forward(Bob.randint(1, 20))
+
+    Sally.forward(random.randint(1, 20))
+    Bob.forward(random.randint(1, 20))
     Keith.forward(Keith.randint(1, 20))
     break
 
