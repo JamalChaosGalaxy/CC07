@@ -127,7 +127,9 @@ while True:
         winner = "Keith"
         break
 if guess == winner:
-    print("Your guess is correct")    
+    print("Your guess is correct")
+else:
+    print("")    
 
 # pen.speed(10)
 # pen.seth(0)
