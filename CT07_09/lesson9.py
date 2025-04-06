@@ -115,7 +115,7 @@ while True:
 
     Sally.forward(random.randint(1, 20))
     Bob.forward(random.randint(1, 20))
-    Keith.forward(Keith.randint(1, 20))
+    Keith.forward(random.randint(1, 20))
     break
 
 while True:
