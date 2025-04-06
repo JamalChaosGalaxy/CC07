@@ -118,10 +118,9 @@ while True:
     Keith.forward(random.randint(1, 20))
 
     if Sally.ycor > 250:
-        winner.append(Sally)
-        print(winner)
+        winner = "Sally"
     elif Bob.ycor > 250:
-        winner.append(Bob)
+        winner = ""
         print(winner)    
     else:
         winner.append(Keith)
