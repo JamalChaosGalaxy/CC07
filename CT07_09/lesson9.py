@@ -125,7 +125,7 @@ while True:
         break 
     elif Keith.ycor() > 250:
         winner = "Keith"
-    break
+        break
     
 
 # pen.speed(10)
