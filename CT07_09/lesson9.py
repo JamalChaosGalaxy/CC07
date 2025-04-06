@@ -117,11 +117,11 @@ while True:
     Bob.forward(random.randint(1, 20))
     Keith.forward(random.randint(1, 20))
 
-    if Sally.ycor > 250:
+    if Sally.ycor() > 250:
         winner = "Sally"
-    elif Bob.ycor > 250:
+    elif Bob.ycor() > 250:
         winner = "Bob"   
-    elif Keith.ycor > 250:
+    elif Keith.ycor() > 250:
         winner = "Keith"
     break
     
