@@ -116,9 +116,7 @@ while True:
     Sally.forward(random.randint(1, 20))
     Bob.forward(random.randint(1, 20))
     Keith.forward(random.randint(1, 20))
-    break
 
-while True:
     if Sally.ycor > 250:
         winner.append(Sally)
         print(winner)
