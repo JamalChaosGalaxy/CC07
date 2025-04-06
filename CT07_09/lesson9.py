@@ -124,7 +124,8 @@ while True:
 while True:
     if Sally.ycor > 250:
         winner.append(Sally)
-        print(w)
+        print(winner)
+        
 
 
 # pen.speed(10)
