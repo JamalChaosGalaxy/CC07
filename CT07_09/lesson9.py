@@ -121,7 +121,7 @@ while True:
         winner = "Sally"
     elif Bob.ycor > 250:
         winner = "Bob"   
-    else:
+    elif Keith.ycor > 250:
         winner = "Keith"
     break
     
