@@ -126,7 +126,8 @@ while True:
     elif Keith.ycor() > 250:
         winner = "Keith"
         break
-    
+if guess == winner:
+    p    
 
 # pen.speed(10)
 # pen.seth(0)
