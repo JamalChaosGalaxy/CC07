@@ -120,11 +120,9 @@ while True:
     if Sally.ycor > 250:
         winner = "Sally"
     elif Bob.ycor > 250:
-        winner = "Bob"
-        print(winner)    
+        winner = "Bob"   
     else:
         winner = "Keith"
-        print(winner)   
     break
     
 
