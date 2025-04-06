@@ -9,10 +9,10 @@
 
 # f()
     
-def alert():
-    print("Motion Detected")
+# def alert():
+#     print("Motion Detected")
 
-i = 0
-while i < 4:
-    alert()
-    i+=1
+# i = 0
+# while i < 4:
+#     alert()
+#     i+=1
