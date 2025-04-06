@@ -123,7 +123,7 @@ while True:
     elif Bob.ycor > 250:
         winner.append(Bob)
         print(winner)    
-    if Keith.ycor > 250:
+    else:
         winner.append(Keith)
         print(winner)   
     break
