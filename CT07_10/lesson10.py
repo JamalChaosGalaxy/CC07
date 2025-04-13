@@ -78,4 +78,5 @@
 # print(sum)
 
 def isElderly(age):
-    input("")
+    age = input("What is your age?")
+    
