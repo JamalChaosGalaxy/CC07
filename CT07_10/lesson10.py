@@ -17,15 +17,34 @@
 #     alert()
 #     i+=1
 
-import turtle
 
-t = turtle.Turtle()
 
-def square():
-    for _ in range(4):
-        t.forward(20)
-        t.left(90)
 
-square()
 
-turtle.mainloop()
+# import turtle
+
+# t = turtle.Turtle()
+
+# def square(length):
+#     for _ in range(4):
+#         t.forward(length)
+#         t.left(90)
+
+# def rectangle(width, height):
+#     for _ in range(2):
+#         t.forward(width)
+#         t.left(90)
+#         t.forward(height)
+#         t.left(90)
+
+# square(20)
+# square(50)
+# rectangle(40, 60)
+
+# turtle.mainloop()
+
+
+def multiply(num1, num2):
+    print(num1 * num2)
+
+multiply(3, 5)
