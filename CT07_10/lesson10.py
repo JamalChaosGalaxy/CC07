@@ -128,3 +128,8 @@
 # phonenum = input("Enter number: ")
 # print(whatsappMe(phonenum))
 
+
+list = []
+def randgen(num):
+    return num
+    
