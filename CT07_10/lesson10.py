@@ -188,5 +188,5 @@ def generate_comp_move():
 
 player_move = str(input("What is your chosen move?"))
 
-print("")
+print("Computer's move : " + com)
 
