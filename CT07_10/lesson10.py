@@ -63,6 +63,6 @@ def drawSquare(x, y):
         turtle.forward(x)
         turtle.right
 
-
+drawSquare(-50, 50)
 
 turtle.mainloop()
