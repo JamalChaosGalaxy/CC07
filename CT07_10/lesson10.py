@@ -86,13 +86,13 @@
 # age = int(input("What is your age? "))  
 # isElderly(age)
 
-def isElderly(age):
-    if age >= 65:
-        return 1
-    return 0
+# def isElderly(age):
+#     if age >= 65:
+#         return 1
+#     return 0
 
-age = int(input("What is your age? "))  
-if isElderly(int(age)):
-    print("You are eligible for the elderly discount.")
-else:
-    print("You are not eligable for the elderly discount/")
+# age = int(input("What is your age? "))  
+# if isElderly(int(age)):
+#     print("You are eligible for the elderly discount.")
+# else:
+#     print("You are not eligable for the elderly discount/")
