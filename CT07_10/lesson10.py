@@ -123,6 +123,7 @@
 # turtle.mainloop()
 
 def whatsappMe(phonenum):
-    return int(phonenum)
+    return "Whatsapp me at https://wa.me/" + (int)phonenum
 
-print (f"Whatsapp me at https://wa.me/" + (int))
+phonenum = input("Enter number: ")
+string
