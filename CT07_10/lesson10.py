@@ -115,6 +115,7 @@ while True:
     y = input("Enter y coordinate: ")
     size = input("How big do you want the square to be: ")
     drawSquare(int(x), int(y), size)
+    break
 
 def turtleCoord(turtle_obj):
     x = turtle.xcor()
