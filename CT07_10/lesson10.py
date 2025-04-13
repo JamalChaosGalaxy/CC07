@@ -62,6 +62,7 @@ def drawSquare(x, y):
         t.forward(30)
         t.left(90)
 
-drawSquare(-50, 50)
+while True:
+    x = input()
 
 turtle.mainloop()
