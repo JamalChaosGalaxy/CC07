@@ -179,4 +179,4 @@ average = sum(random_numbers) / total if total > 0 else 0  # Handle division by 
 print(f"Total amount of numbers in the list: {total}")
 print(f"Biggest number: {big}")
 print(f"Smallest number: {small}")
-print(f"Average: {average:.2f}")
+print(f"Average: {average}")
