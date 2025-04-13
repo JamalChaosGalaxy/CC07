@@ -120,4 +120,5 @@ while True:
 def turtleCoord(turtle_obj):
     x = turtle.xcor()
     y = turtle.ycor()
+    return x,y
 
