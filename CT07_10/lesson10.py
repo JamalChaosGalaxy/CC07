@@ -123,5 +123,5 @@
 # turtle.mainloop()
 
 def whatsappMe(phonenum):
-    phonenum = input("What is your phone number?")
-    
+    return phonenum
+
