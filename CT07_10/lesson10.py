@@ -181,7 +181,7 @@
 # print(f"Smallest number: {small}")
 # print(f"Average: {average}")
 
-move = [rock, paper, scissors]
+move = ["rock", "paper", "scissors]
 import random
 def generate_comp_move():
     comp_move = random.randint()
