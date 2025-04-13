@@ -123,6 +123,7 @@ def turtleCoord(turtle_obj):
     return x,y
 
 drawSquare(-50,50)
+x,y = turtle
 
 turtle.mainloop()
 
