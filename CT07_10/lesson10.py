@@ -132,4 +132,4 @@
 list = []
 def randgen(num):
     return num
-    
+    num = input("")
