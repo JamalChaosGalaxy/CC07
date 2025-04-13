@@ -72,4 +72,6 @@
 # Return in funcitons
 
 def add(x, y):
-    return
+    return x + y
+
+sum = add
