@@ -58,6 +58,6 @@ def drawSquare(x, y):
     turtle.goto(x,y)
     turtle.pendown()
     for i in range(4):
-        turtle.forward
+        turtle.forward()
 
 turtle.mainloop()
