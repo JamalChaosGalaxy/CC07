@@ -88,11 +88,11 @@
 
 def isElderly(age):
     if age >= 65:
-
-        
-        print("You are eligible for the elderly discount.")
-    else:
-        print("You are not eligable for the elderly discount/")
+        return 1
+    return 0
 
 age = int(input("What is your age? "))  
-isElderly(age)
+if isElderly(int(age)):
+    print("You are eligible for the elderly discount.")
+else:
+    print("You are not eligable for the elderly discount/")
