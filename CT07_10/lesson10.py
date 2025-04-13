@@ -131,4 +131,4 @@
 
 list = []
 def randgen(num):
-    num = input("")
+    num = input("How many times do you want to shake the hat?")
