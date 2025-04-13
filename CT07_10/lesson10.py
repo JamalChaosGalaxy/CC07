@@ -184,5 +184,5 @@
 
 import random
 def generate_comp_move():
-    comp_move = random.randint()
+    comp_move = random.randint(Rock, Paper, Scissors)
 
