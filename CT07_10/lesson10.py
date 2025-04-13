@@ -98,27 +98,29 @@
 #     print("You are not eligable for the elderly discount/")
 
 
-import turtle
+# import turtle
 
-t = turtle.Turtle()
-size = 30
+# t = turtle.Turtle()
+# size = 30
 
-def drawSquare(x, y):
-    turtle.penup()
-    turtle.goto(x,y)
-    turtle.pendown()
-    for i in range(4):
-        t.forward(40)
-        t.left(90)
+# def drawSquare(x, y):
+#     turtle.penup()
+#     turtle.goto(x,y)
+#     turtle.pendown()
+#     for i in range(4):
+#         t.forward(40)
+#         t.left(90)
 
-def turtleCoord(turtle_obj):
-    x = turtle.xcor()
-    y = turtle.ycor()
-    return x,y
+# def turtleCoord(turtle_obj):
+#     x = turtle.xcor()
+#     y = turtle.ycor()
+#     return x,y
 
-drawSquare(-50,50)
-x,y = turtleCoord(t)
-print("Turtle coordinates: " + str(x) + " , " + str(y))
+# drawSquare(-50,50)
+# x,y = turtleCoord(t)
+# print("Turtle coordinates: " + str(x) + " , " + str(y))
 
-turtle.mainloop()
+# turtle.mainloop()
 
+def whatsappMe(phonenum):
+    input
