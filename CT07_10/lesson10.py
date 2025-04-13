@@ -154,29 +154,35 @@
 
 
 
+# import random
+
+# def randgen():
+#     num = int(input("How many times do you want to shake the hat? "))
+#     return num
+
+# num = randgen()  # Call the function and store the result in 'num'
+
+# random_numbers = []  # List to store random numbers
+
+# # Generate random numbers and add them to the list
+# for i in range(num):
+#     randomnumber = random.randint(1, 100)
+#     random_numbers.append(randomnumber)
+
+# # Calculate statistics
+# total = len(random_numbers)
+# big = max(random_numbers)
+# small = min(random_numbers)
+# average = sum(random_numbers)
+
+# # Print results
+# print(f"Total amount of numbers in the list: {total}")
+# print(f"Biggest number: {big}")
+# print(f"Smallest number: {small}")
+# print(f"Average: {average}")
+
+
 import random
+def generate_comp_move():
+    
 
-def randgen():
-    num = int(input("How many times do you want to shake the hat? "))
-    return num
-
-num = randgen()  # Call the function and store the result in 'num'
-
-random_numbers = []  # List to store random numbers
-
-# Generate random numbers and add them to the list
-for i in range(num):
-    randomnumber = random.randint(1, 100)
-    random_numbers.append(randomnumber)
-
-# Calculate statistics
-total = len(random_numbers)
-big = max(random_numbers)
-small = min(random_numbers)
-average = sum(random_numbers)
-
-# Print results
-print(f"Total amount of numbers in the list: {total}")
-print(f"Biggest number: {big}")
-print(f"Smallest number: {small}")
-print(f"Average: {average}")
