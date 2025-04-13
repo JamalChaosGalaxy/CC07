@@ -128,6 +128,8 @@
 # phonenum = input("Enter number: ")
 # print(whatsappMe(phonenum))
 
+
+
 # import random()
 
 # list = []
@@ -149,6 +151,8 @@
 # print ("Biggest number:  " + big)
 # print ("Smallest number: " + small)
 # print ("Average: " + average)
+
+
 
 import random
 
