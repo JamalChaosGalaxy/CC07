@@ -60,6 +60,6 @@ def drawSquare(x, y):
     for i in range(4):
         turtle.forward(y)
         turtle.right()
-        turtle.forward()
+        turtle.forward(x)
 
 turtle.mainloop()
