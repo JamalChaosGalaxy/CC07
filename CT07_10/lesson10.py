@@ -82,5 +82,6 @@ def isElderly(age):
         print("You are eligible for the elderly discount.")
     else:
         print("Heck nah")
+        
 age = int(input("What is your age? "))  
 isElderly(age)
