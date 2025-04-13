@@ -98,22 +98,22 @@
 #     print("You are not eligable for the elderly discount/")
 
 
-# import turtle
+import turtle
 
-# t = turtle.Turtle()
+t = turtle.Turtle()
 
-# def drawSquare(x, y, size):
-#     turtle.penup()
-#     turtle.goto(x,y)
-#     turtle.pendown()
-#     for i in range(4):
-#         t.forward(30)
-#         t.left(90)
+def drawSquare(x, y, size):
+    turtle.penup()
+    turtle.goto(x,y)
+    turtle.pendown()
+    for i in range(4):
+        t.forward(30)
+        t.left(90)
 
-# while True:
-#     x = input("Enter x coordinate: ")
-#     y = input("Enter y coordinate: ")
-#     size = input("How big do you want the square to be: ")
-#     drawSquare(int(x), int(y), size)
+while True:
+    x = input("Enter x coordinate: ")
+    y = input("Enter y coordinate: ")
+    size = input("How big do you want the square to be: ")
+    drawSquare(int(x), int(y), size)
 
 turtle.mainloop()
