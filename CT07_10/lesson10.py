@@ -186,5 +186,5 @@ import random
 def generate_comp_move():
     comp_move = random.randint(move)
 
-player_move = 
+player_move = str(input(""))
 
