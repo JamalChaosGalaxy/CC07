@@ -173,7 +173,7 @@ for i in range(num):
 total = len(random_numbers)
 big = max(random_numbers)
 small = min(random_numbers)
-average = sum(random_numbers) / total if total > 0 else 0 
+average = sum(random_numbers)
 
 # Print results
 print(f"Total amount of numbers in the list: {total}")
