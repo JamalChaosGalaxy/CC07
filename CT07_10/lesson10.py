@@ -125,4 +125,4 @@
 def whatsappMe(phonenum):
     return phonenum
 
-print ("Whatsapp me at https://wa.me/" + p)
+print (f"Whatsapp me at https://wa.me/" + phonenum)
