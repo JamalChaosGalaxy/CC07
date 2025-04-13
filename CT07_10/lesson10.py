@@ -56,6 +56,7 @@ t = turtle.Turtle()
 def drawSquare(x, y):
     turtle.penup()
     turtle.goto(x,y)
+    turtle.pendown()
     
 
 turtle.mainloop()
