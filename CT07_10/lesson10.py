@@ -65,6 +65,6 @@ def drawSquare(x, y):
 while True:
     x = input("Enter x coordinate: ")
     y = input("Enter y coordinate: ")
-    size = input()
+    size = input("How ")
 
 turtle.mainloop()
