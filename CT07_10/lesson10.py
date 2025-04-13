@@ -117,5 +117,6 @@ while True:
     drawSquare(int(x), int(y), size)
 
 def turtleCoord(turtle_obj):
-    x = turtle
+    x = turtle.xcor()
+    y = turtle
 
