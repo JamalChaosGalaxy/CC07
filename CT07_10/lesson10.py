@@ -186,5 +186,6 @@ import random
 def generate_comp_move():
     comp_move = random.randint(move)
 
-player_move = str(input(""))
+player_move = str(input("What is your chosen move?"))
+
 
