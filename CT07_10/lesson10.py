@@ -124,7 +124,7 @@ def turtleCoord(turtle_obj):
 
 drawSquare(-50,50)
 x,y = turtleCoord(t)
-print("Turtle coordinates ")
+print("Turtle coordinates: " + str)
 
 turtle.mainloop()
 
