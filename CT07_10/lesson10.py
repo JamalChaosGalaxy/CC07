@@ -66,5 +66,6 @@ while True:
     x = input("Enter x coordinate: ")
     y = input("Enter y coordinate: ")
     size = input("How big do you want the square to be: ")
+    drawSquare(int(x))
 
 turtle.mainloop()
