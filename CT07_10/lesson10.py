@@ -50,3 +50,11 @@
 # multiply(3, 5)
 
 import turtle
+
+t = turtle.Turtle()
+
+def drawSquare(x, y):
+    turtle.penup()
+    
+
+turtle.mainloop()
