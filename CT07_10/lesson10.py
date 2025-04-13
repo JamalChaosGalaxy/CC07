@@ -52,9 +52,8 @@
 import turtle
 
 t = turtle.Turtle()
-size = 30
 
-def drawSquare(x, y):
+def drawSquare(x, y, size):
     turtle.penup()
     turtle.goto(x,y)
     turtle.pendown()
