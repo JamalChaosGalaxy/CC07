@@ -77,3 +77,5 @@
 # sum = add(10, 15)
 # print(sum)
 
+def isElderly(age):
+    input("")
