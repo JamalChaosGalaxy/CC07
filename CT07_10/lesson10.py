@@ -128,8 +128,51 @@
 # phonenum = input("Enter number: ")
 # print(whatsappMe(phonenum))
 
+# import random()
 
-list = []
-def randgen(num):
-    num = input("How many times do you want to shake the hat?")
+# list = []
+# def randgen(num):
+#     num = int(input("How many times do you want to shake the hat?"))
+#     return num
+
+# randgen(num)
+# for i in range(num):
+#     randomnumber = random.randint(1, 100)
+#     list.append(randomnumber)
+
+# total = len(list)
+# big = max(list)
+# small = min(list)
+# average = sum(list) / len(list)
+
+# print ("Total amount of numbers in the list: " + total)
+# print ("Biggest number:  " + big)
+# print ("Smallest number: " + small)
+# print ("Average: " + average)
+
+import random
+
+def randgen():
+    num = int(input("How many times do you want to shake the hat? "))
     return num
+
+num = randgen()  # Call the function and store the result in 'num'
+
+random_numbers = []  # List to store random numbers
+
+# Generate random numbers and add them to the list
+for i in range(num):
+    randomnumber = random.randint(1, 100)
+    random_numbers.append(randomnumber)
+
+# Calculate statistics
+total = len(random_numbers)
+big = max(random_numbers)
+small = min(random_numbers)
+average = sum(random_numbers) / total if total > 0 else 0  # Handle division by zero
+
+# Print results
+print(f"Total amount of numbers in the list: {total}")
+print(f"Biggest number: {big}")
+print(f"Smallest number: {small}")
+print(f"Average: {average:.2f}")
