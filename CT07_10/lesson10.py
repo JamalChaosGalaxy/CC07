@@ -192,4 +192,5 @@ player_move = str(input("What is your chosen move?"))
 comp_move = generate_comp_move
 
 print("Computer's move : " + comp_move)
+print("Player's move: " + player_move)
 
