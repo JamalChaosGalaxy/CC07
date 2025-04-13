@@ -60,6 +60,7 @@ def drawSquare(x, y):
     turtle.pendown()
     for i in range(2):
         t.forward(30)
+        t.left()
 
 drawSquare(-50, 50)
 
