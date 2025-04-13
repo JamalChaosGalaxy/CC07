@@ -107,7 +107,7 @@ def drawSquare(x, y, size):
     turtle.goto(x,y)
     turtle.pendown()
     for i in range(4):
-        t.forward(30)
+        t.forward(40)
         t.left(90)
 
 def turtleCoord(turtle_obj):
