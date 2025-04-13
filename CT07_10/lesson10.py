@@ -122,3 +122,5 @@ def turtleCoord(turtle_obj):
     y = turtle.ycor()
     return x,y
 
+drawSquare(-50)
+
