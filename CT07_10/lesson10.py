@@ -185,7 +185,7 @@ move = ["rock", "paper", "scissors"]
 import random
 def generate_comp_move():
     comp_move = random.randint(move)
-    return com
+    return comp_move
 
 player_move = str(input("What is your chosen move?"))
 
