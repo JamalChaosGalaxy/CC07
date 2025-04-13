@@ -77,8 +77,19 @@
 # sum = add(10, 15)
 # print(sum)
 
+# def isElderly(age):
+#     if age >= 65:
+#         print("You are eligible for the elderly discount.")
+#     else:
+#         print("You are not eligable for the elderly discount/")
+
+# age = int(input("What is your age? "))  
+# isElderly(age)
+
 def isElderly(age):
     if age >= 65:
+
+        
         print("You are eligible for the elderly discount.")
     else:
         print("You are not eligable for the elderly discount/")
