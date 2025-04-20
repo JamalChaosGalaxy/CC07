@@ -227,8 +227,7 @@ def initialise_board():
     board = []
     for i in range(3):
         row = []
-        row.append(' ')
-    for i in range(3):
-        board.append(row)
+        for j in range(3):
+            board.append(row)
         
     print (board)
