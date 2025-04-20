@@ -199,9 +199,9 @@ def determine_winner(player_move, comp_move):
     elif player_move == "scissors" and comp_move == "paper":
         print("Win")
     elif player_move == "rock" and comp_move == "paper":
-        print("Win")
+        print("Lose")
     elif player_move == "paper" and comp_move == "scissors":
-        print("Win")
+        print("Lose")
     elif player_move == "rock" and comp_move == "scissors":
         print("Win")
 
