@@ -186,7 +186,7 @@ import random
 
 
 def generate_comp_move():
-    comp_move = int(random.randint(move))
+    comp_move = int(random.choice(move))
     return comp_move
 
 def determine_winner(player_move, comp_move):
