@@ -213,7 +213,7 @@
 
 #     comp_move = generate_comp_move
 
-#     print("Computer's move : " , comp_move)
+#     print("Computer's move: {})
 #     print("Player's move: " , player_move)
 
 # /////////
