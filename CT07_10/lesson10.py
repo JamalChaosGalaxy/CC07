@@ -223,4 +223,7 @@
 #         print("Thanks for playing!")
 #         break
 
-
+board = []
+row = []
+for i in range(3):
+    
