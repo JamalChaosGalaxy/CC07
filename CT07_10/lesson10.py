@@ -223,6 +223,7 @@
 #         print("Thanks for playing!")
 #         break
 
+board = []
 initialise_board = []
 row = []
 for i in range(3):
