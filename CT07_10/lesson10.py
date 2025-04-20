@@ -213,7 +213,7 @@ while True:
 
     comp_move = generate_comp_move
 
-    print(f"Computer's move: comp_move")
+    print(f"Computer's move: {comp_move}")
     print(f"Player's move: {player_move}")
 
     play_again = input("Do you want to play again? (y/n): ").lower()
