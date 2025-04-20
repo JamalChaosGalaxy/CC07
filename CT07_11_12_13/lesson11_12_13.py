@@ -14,6 +14,8 @@ def print_board(board):
         for cell in row:
             if cell != " ":
                 print(" " + str(cell) + " ", end="")
+            else:
+                print()
 
 print(initialise_board())
 print_board(board)
