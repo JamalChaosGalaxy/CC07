@@ -249,17 +249,16 @@ while True:
 
     if player_move not in move:
         print("Move is not valid, please choose 'rock', 'paper', or 'scissors'.")
-        continue  # Skip the rest of the loop and ask for a valid move again
+        continue  
 
-    comp_move = generate_comp_move()  # Fix here: call the function
+    comp_move = generate_comp_move()  
 
     print(f"Computer's move: {comp_move}")
     print(f"Player's move: {player_move}")
     
-    # Determine the winner
+
     determine_winner(player_move, comp_move)
-    
-    # Optionally ask if the player wants to play again
+ 
     play_again = input("Do you want to play again? (y/n): ").lower()
     if play_again != 'y':
         print("Thanks for playing!")
