@@ -230,6 +230,6 @@ def initialise_board():
         for j in range(3):
             row.append(' ')
         board.append(row)
-    
+    return board
         
-    print (board)
+print (board)
