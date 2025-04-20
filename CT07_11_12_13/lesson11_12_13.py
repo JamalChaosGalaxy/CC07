@@ -15,7 +15,7 @@ def print_board(board):
             if cell != " ":
                 print(" " + str(cell) + " ", end="")
             else:
-                print()
+                print(" " + str(cell))
 
 print(initialise_board())
 print_board(board)
