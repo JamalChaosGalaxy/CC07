@@ -230,4 +230,4 @@ for i in range(3):
 for i in range(3):
     board.append(row)
     
-print (initialise_board)
+print (board)
