@@ -220,15 +220,13 @@
 
 import random
 
-# List of possible moves
+
 move = ["rock", "paper", "scissors"]
 
-# Function to generate computer's move
 def generate_comp_move():
     comp_move = random.choice(move)
     return comp_move
 
-# Function to determine the winner
 def determine_winner(player_move, comp_move):
     if player_move == comp_move:
         print("Tie")
@@ -245,7 +243,7 @@ def determine_winner(player_move, comp_move):
     elif player_move == "scissors" and comp_move == "rock":
         print("You Lose!")
 
-# Main game loop
+
 while True:
     player_move = str(input("What is your chosen move (rock, paper, or scissors)? ").lower())
 
