@@ -25,6 +25,6 @@ def print_board(board):
     print("\n")    
         
 
-print_board(board)
+print_board(initialise_board())
 
 
