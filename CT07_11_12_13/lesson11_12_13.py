@@ -16,6 +16,6 @@ def print_board(board):
                 print(" " + str(cell) + " ", end="")
 
 print(initialise_board())
-print_board(bo)
+print_board(board)
 
 
