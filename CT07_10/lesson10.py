@@ -181,46 +181,46 @@
 # print(f"Smallest number: {small}")
 # print(f"Average: {average}")
 
-move = ["rock", "paper", "scissors"]
-import random
+# move = ["rock", "paper", "scissors"]
+# import random
 
 
-def generate_comp_move():
-    comp_move = random.choice(move)
-    return comp_move
+# def generate_comp_move():
+#     comp_move = random.choice(move)
+#     return comp_move
 
-def determine_winner(player_move, comp_move):
-    if player_move == comp_move:
-        print("Tie")
-    elif player_move == "rock" and comp_move == "scissors":
-        print("Win")
-    elif player_move == "paper" and comp_move == "rock":
-        print("Win")
-    elif player_move == "scissors" and comp_move == "paper":
-        print("Win")
-    elif player_move == "rock" and comp_move == "paper":
-        print("Lose")
-    elif player_move == "paper" and comp_move == "scissors":
-        print("Lose")
-    elif player_move == "scissors" and comp_move == "rock":
-        print("Lose")
+# def determine_winner(player_move, comp_move):
+#     if player_move == comp_move:
+#         print("Tie")
+#     elif player_move == "rock" and comp_move == "scissors":
+#         print("Win")
+#     elif player_move == "paper" and comp_move == "rock":
+#         print("Win")
+#     elif player_move == "scissors" and comp_move == "paper":
+#         print("Win")
+#     elif player_move == "rock" and comp_move == "paper":
+#         print("Lose")
+#     elif player_move == "paper" and comp_move == "scissors":
+#         print("Lose")
+#     elif player_move == "scissors" and comp_move == "rock":
+#         print("Lose")
 
-while True:
-    player_move = str(input("What is your chosen move?"))
+# while True:
+#     player_move = str(input("What is your chosen move?"))
 
-    if player_move not in move:
-        print("Move is not valid")
+#     if player_move not in move:
+#         print("Move is not valid")
 
-    comp_move = generate_comp_move()
+#     comp_move = generate_comp_move()
 
-    print(f"Computer's move: {comp_move}")
-    print(f"Player's move: {player_move}")
+#     print(f"Computer's move: {comp_move}")
+#     print(f"Player's move: {player_move}")
 
-    determine_winner(player_move, comp_move)
+#     determine_winner(player_move, comp_move)
 
-    play_again = input("Do you want to play again? (y/n): ").lower()
-    if play_again != 'y':
-        print("Thanks for playing!")
-        break
+#     play_again = input("Do you want to play again? (y/n): ").lower()
+#     if play_again != 'y':
+#         print("Thanks for playing!")
+#         break
 
 
