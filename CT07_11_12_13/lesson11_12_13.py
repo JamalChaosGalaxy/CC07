@@ -24,7 +24,6 @@ def print_board(board):
     print("/n")    
         
 board = initialise_board
-print(initialise_board())
 print_board(board)
 
 
