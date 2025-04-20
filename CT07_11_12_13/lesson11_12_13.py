@@ -13,5 +13,6 @@ def print_board(board):
     for row in board:
         for cell in row:
             if cell != " ":
+                print(" " + )
 
 
