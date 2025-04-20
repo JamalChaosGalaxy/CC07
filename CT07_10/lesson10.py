@@ -181,40 +181,40 @@
 # print(f"Smallest number: {small}")
 # print(f"Average: {average}")
 
-move = ["rock", "paper", "scissors"]
-import random
+# move = ["rock", "paper", "scissors"]
+# import random
 
 
-def generate_comp_move():
-    comp_move = random.choice(move)
-    return comp_move
+# def generate_comp_move():
+#     comp_move = random.choice(move)
+#     return comp_move
 
-def determine_winner(player_move, comp_move):
-    if player_move == comp_move:
-        print("Tie")
-    elif player_move == "rock" and comp_move == "scissors":
-        print("Win")
-    elif player_move == "paper" and comp_move == "rock":
-        print("Win")
-    elif player_move == "scissors" and comp_move == "paper":
-        print("Win")
-    elif player_move == "rock" and comp_move == "paper":
-        print("Lose")
-    elif player_move == "paper" and comp_move == "scissors":
-        print("Lose")
-    elif player_move == "scissors" and comp_move == "rock":
-        print("Lose")
+# def determine_winner(player_move, comp_move):
+#     if player_move == comp_move:
+#         print("Tie")
+#     elif player_move == "rock" and comp_move == "scissors":
+#         print("Win")
+#     elif player_move == "paper" and comp_move == "rock":
+#         print("Win")
+#     elif player_move == "scissors" and comp_move == "paper":
+#         print("Win")
+#     elif player_move == "rock" and comp_move == "paper":
+#         print("Lose")
+#     elif player_move == "paper" and comp_move == "scissors":
+#         print("Lose")
+#     elif player_move == "scissors" and comp_move == "rock":
+#         print("Lose")
 
-while True:
-    player_move = str(input("What is your chosen move?"))
+# while True:
+#     player_move = str(input("What is your chosen move?"))
 
-    if player_move not in move:
-        print("Move is not valid")
+#     if player_move not in move:
+#         print("Move is not valid")
 
-    comp_move = generate_comp_move
+#     comp_move = generate_comp_move
 
-    print("Computer's move : " , comp_move)
-    print("Player's move: " , player_move)
+#     print("Computer's move : " , comp_move)
+#     print("Player's move: " , player_move)
 
 
         
