@@ -211,7 +211,7 @@ while True:
     if player_move not in move:
         print("Move is not valid")
 
-    comp_move = generate_comp_move
+    comp_move = generate_comp_move()
 
     print(f"Computer's move: {comp_move}")
     print(f"Player's move: {player_move}")
