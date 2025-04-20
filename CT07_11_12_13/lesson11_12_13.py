@@ -8,6 +8,6 @@ def initialise_board():
     return board
         
 def print_board(board):
-    print
+    print("/n Board Layout: ")
 
 
