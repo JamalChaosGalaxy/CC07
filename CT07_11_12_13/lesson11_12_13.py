@@ -6,7 +6,7 @@ def initialise_board():
             row.append(' ')
         board.append(row)
     return board
-        
+print()        
 def print_board(board):
     print("\nBoard Layout: ")
     cell_number = 1
