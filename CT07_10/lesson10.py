@@ -216,7 +216,7 @@ while True:
     print(f"Computer's move: {comp_move}")
     print(f"Player's move: {player_move}")
 
-    determine_winner()
+    determine_winner(player_move, comp_move)
 
     play_again = input("Do you want to play again? (y/n): ").lower()
     if play_again != 'y':
