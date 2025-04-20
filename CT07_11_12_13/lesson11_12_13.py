@@ -8,7 +8,7 @@ def initialise_board():
     return board
         
 def print_board(board):
-    print("/nBoard Layout: ")
+    print("\nBoard Layout: ")
     cell_number = 1
     for row in board:
         for cell in row:
