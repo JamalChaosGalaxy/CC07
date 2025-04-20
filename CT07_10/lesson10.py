@@ -196,6 +196,14 @@ def determine_winner(player_move, comp_move):
         print("Win")
     elif player_move == "rock" and comp_move == "scissors":
         print("Win")
+    elif player_move == "rock" and comp_move == "scissors":
+        print("Win")
+    elif player_move == "rock" and comp_move == "scissors":
+        print("Win")
+    elif player_move == "rock" and comp_move == "scissors":
+        print("Win")
+    elif player_move == "rock" and comp_move == "scissors":
+        print("Win")
 
 while True:
     player_move = str(input("What is your chosen move?"))
