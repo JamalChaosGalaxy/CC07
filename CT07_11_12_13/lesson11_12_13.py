@@ -8,5 +8,4 @@ def initialise_board():
     return board
         
 
-print (initialise_board)
 
