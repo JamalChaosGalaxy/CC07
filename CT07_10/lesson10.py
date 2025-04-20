@@ -232,4 +232,5 @@ def initialise_board():
         board.append(row)
     return board
         
-print (board)
+
+print (ini)
