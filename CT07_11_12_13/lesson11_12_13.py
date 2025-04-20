@@ -9,5 +9,6 @@ def initialise_board():
         
 def print_board(board):
     print("/n Board Layout: ")
+    cell_number = 1
 
 
