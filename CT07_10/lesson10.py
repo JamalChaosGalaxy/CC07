@@ -223,10 +223,10 @@
 #         print("Thanks for playing!")
 #         break
 
-ini = []
+initialise_board = []
 row = []
 for i in range(3):
     row.append(' ')
 for i in range(3):
-    board.append(row)
+    initialise_board.append(row)
 print (board)
