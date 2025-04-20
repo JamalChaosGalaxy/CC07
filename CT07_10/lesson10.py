@@ -223,11 +223,12 @@
 #         print("Thanks for playing!")
 #         break
 
-board = []
-row = []
-for i in range(3):
-    row.append(' ')
-for i in range(3):
-    board.append(row)
-    
-print (board)
+def initialise_board():
+    board = []
+    row = []
+    for i in range(3):
+        row.append(' ')
+    for i in range(3):
+        board.append(row)
+        
+    print (board)
