@@ -233,4 +233,4 @@ def initialise_board():
     return board
         
 
-print (ini)
+print (initialise_board)
