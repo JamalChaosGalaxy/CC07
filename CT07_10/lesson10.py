@@ -227,4 +227,4 @@ board = []
 row = []
 for i in range(3):
     row.append(' ')
-    
+for i in range(3)
