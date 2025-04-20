@@ -189,6 +189,10 @@ def generate_comp_move():
     comp_move = int(random.randint(move))
     return comp_move
 
+def determine_winner(player_move, comp_move):
+    if player_move == comp_move:
+        
+
 while True:
     player_move = str(input("What is your chosen move?"))
 
