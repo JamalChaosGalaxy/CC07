@@ -183,16 +183,24 @@
 
 move = ["rock", "paper", "scissors"]
 import random
+
+
 def generate_comp_move():
     comp_move = int(random.randint(move))
     return comp_move
 
-player_move = str(input("What is your chosen move?"))
+while True:
+    player_move = str(input("What is your chosen move?"))
 
-comp_move = generate_comp_move
+    if player_move not in move:
+        print("Move is not valid")
 
-print("Computer's move : " + comp_move)
-print("Player's move: " + player_move)
+    comp_move = generate_comp_move
 
-def 
+    print("Computer's move : " + comp_move)
+    print("Player's move: " + player_move)
+
+
+    # def determine_winner():
+        
 
