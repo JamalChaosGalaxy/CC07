@@ -191,7 +191,8 @@ def generate_comp_move():
 
 def determine_winner(player_move, comp_move):
     if player_move == comp_move:
-        
+        print("Tie")
+    
 
 while True:
     player_move = str(input("What is your chosen move?"))
