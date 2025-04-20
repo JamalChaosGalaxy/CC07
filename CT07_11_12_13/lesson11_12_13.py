@@ -7,5 +7,5 @@ def initialise_board():
         board.append(row)
     return board
         
-
+print("/n ")
 
