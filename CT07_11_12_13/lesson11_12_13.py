@@ -18,6 +18,7 @@ def print_board(board):
                 print(" " + str(cell_number) + " ", end="")
             if cell_number % 3 != 0:
                 print("|", ends="")
+            cell_number += 
 
 print(initialise_board())
 print_board(board)
