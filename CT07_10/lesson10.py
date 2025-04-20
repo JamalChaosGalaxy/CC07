@@ -229,4 +229,5 @@ for i in range(3):
     row.append(' ')
 for i in range(3):
     initialise_board.append(row)
-print (board)
+    initialise_board
+print (initialise_board)
