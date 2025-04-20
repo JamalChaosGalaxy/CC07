@@ -7,6 +7,7 @@ def initialise_board():
         board.append(row)
     return board
         
-print("/n Board Layout:")
+def print_board(board):
+    print
 
 
