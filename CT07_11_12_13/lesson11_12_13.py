@@ -17,7 +17,7 @@ def print_board(board):
             else:
                 print(" " + str(cell_number) + " ", end="")
             if cell_number % 3 != 0:
-                print("|", ends="")
+                print("|", end="")
             cell_number += 1
         if cell_number <= 9:
             print("/n----------")
