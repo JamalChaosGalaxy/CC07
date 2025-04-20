@@ -13,7 +13,7 @@ def print_board(board):
     cell_number = 1
     for row in board:
         for cell in row:
-            if cell != '':
+            if cell != ' ':
                 print(" " + str(cell) + " ", end="")
             else:
                 print(" " + str(cell_number) + " ", end="")
