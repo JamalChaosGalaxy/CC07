@@ -40,7 +40,21 @@ def get_player_move(board):
             print("Invalid error. Please enter a value between 1-9.")
     else:
         print("Invalid input. Please put in a number from 1 to 9")
+
+win_conditions = [
+    # Horizontal
+    [board[0][0], board[0][1], board[0][2]],
+    [board[1][0], board[1][1], board[1][2]],
+    [board[2][0], board[2][1], board[2][2]],
+    # Vetical
+    [board[0][0], board[1][0], board[2][0]],
+    [board[0][1], board[1][1], board[2][1]],
+    [board[0][2], board[1][2], board[2][2]],
+    # Diagonal
+    [board[0][0], board[1][1], board[2][2]],
+    [board[2][0], board[1][1], board[0][2]],
     
+]
 
 board = initialise_board()
 while True:
