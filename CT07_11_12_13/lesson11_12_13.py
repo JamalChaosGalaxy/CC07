@@ -29,7 +29,7 @@ def get_player_move(board):
     move = int(move_input) - 1
     row = move // 3
     col = move % 3
-    board[[row][col0]]
+    board[[row][col]] = X
 
 print_board(initialise_board())
 
