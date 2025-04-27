@@ -33,7 +33,7 @@ def get_player_move(board):
         col = move % 3
         board[row][col] = "x"
     else:
-        print()
+        print("Invalid input. Please put in a number from 1 to 9")
     
 
 board = initialise_board()
