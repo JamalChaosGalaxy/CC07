@@ -27,7 +27,8 @@ def print_board(board):
 def get_player_move(board):
     move_input = input("Pick a number from 1 to 9: ")
     move = int(move_input) - 1
-    row
+    row = move // 3
+    col = move % 3
 
 print_board(initialise_board())
 
