@@ -30,9 +30,9 @@ def get_player_move(board):
     row = move // 3
     col = move % 3
     board[[row][col]] = 'X'
+
 board = initialise_board
 print_board(board)
-board = initialise_board
 get_player_move(board)
 print_board(board)
 
