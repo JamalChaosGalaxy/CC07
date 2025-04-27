@@ -58,6 +58,9 @@ def check_win():
         [board[2][0], board[1][1], board[0][2]],
         
     ]
+    for condition in win_conditions:
+        if condition[0] == condition[1] == condition[2] and condition[0] != ' ':
+            return 
 
 while True:
     print_board(board)
