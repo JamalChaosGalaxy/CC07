@@ -25,12 +25,12 @@ def print_board(board):
             print("\n----------")
     print("\n")    
         
-# def get_player_move(board):
-#     move_input = input("Pick a number from 1 to 9: ")
-#     move = int(move_input) - 1
-#     row = move // 3
-#     col = move % 3
-#     board[[row][col]] = 'X'
+def get_player_move(board):
+    move_input = input("Pick a number from 1 to 9: ")
+    move = int(move_input) - 1
+    row = move // 3
+    col = move % 3
+    board[[row][col]] = 'X'
 
 board = initialise_board()
 print_board(board)
