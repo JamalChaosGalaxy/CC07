@@ -34,7 +34,7 @@ def print_board(board):
 #     board[[row][col]] = 'X'
 
 board = initialise_board
-primt
+print(board)
 # get_player_move(board)
 
 
