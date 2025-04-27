@@ -62,7 +62,7 @@ def check_win():
         if condition[0] == condition[1] == condition[2] and condition[0] != ' ':
             return True
     return False
-
+board = initialise_board()
 while True:
     print_board(board)
     get_player_move(board)
