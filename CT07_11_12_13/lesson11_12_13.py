@@ -25,7 +25,7 @@ def print_board(board):
     print("\n")    
         
 def get_player_move(board):
-    move
+    move_input = input("")
 
 print_board(initialise_board())
 
