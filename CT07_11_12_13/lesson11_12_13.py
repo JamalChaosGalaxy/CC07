@@ -25,7 +25,8 @@ def print_board(board):
     print("\n")    
         
 def get_player_move(board):
-    move_input = input("Pick a number from 1 to 9:")
+    move_input = input("Pick a number from 1 to 9: ")
+    
 
 print_board(initialise_board())
 
