@@ -33,7 +33,6 @@ def print_board(board):
 #     board[[row][col]] = 'X'
 
 board = initialise_board
-
-# get_player_move(board)
+get_player_move(board)
 
 
