@@ -1,4 +1,5 @@
 
+
 def initialise_board():
     board = []
     for i in range(3):
@@ -34,7 +35,8 @@ def get_player_move(board):
             col = move % 3
             if board[row][col] == " ":
                 board[row][col] = 'X'
-            else
+            else:
+                print("Space is already taken")
         else:
             print("Invalid error. Please enter a value between 1-9.")
     else:
