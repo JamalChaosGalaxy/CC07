@@ -32,7 +32,7 @@ def print_board(board):
 #     col = move % 3
 #     board[[row][col]] = 'X'
 
-board = initialise_board
+board = initialise_board()
 print_board(board)
 
 
