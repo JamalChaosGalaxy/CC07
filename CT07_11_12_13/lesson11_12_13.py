@@ -60,7 +60,8 @@ def check_win():
     ]
     for condition in win_conditions:
         if condition[0] == condition[1] == condition[2] and condition[0] != ' ':
-            return 
+            return True
+    return False
 
 while True:
     print_board(board)
