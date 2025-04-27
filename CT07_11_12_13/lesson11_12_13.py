@@ -43,21 +43,21 @@ def get_player_move(board):
 
 board = initialise_board()
 
-
-win_conditions = [
-    # Horizontal
-    [board[0][0], board[0][1], board[0][2]],
-    [board[1][0], board[1][1], board[1][2]],
-    [board[2][0], board[2][1], board[2][2]],
-    # Vetical
-    [board[0][0], board[1][0], board[2][0]],
-    [board[0][1], board[1][1], board[2][1]],
-    [board[0][2], board[1][2], board[2][2]],
-    # Diagonal
-    [board[0][0], board[1][1], board[2][2]],
-    [board[2][0], board[1][1], board[0][2]],
-    
-]
+def check_win():
+    win_conditions = [
+        # Horizontal
+        [board[0][0], board[0][1], board[0][2]],
+        [board[1][0], board[1][1], board[1][2]],
+        [board[2][0], board[2][1], board[2][2]],
+        # Vetical
+        [board[0][0], board[1][0], board[2][0]],
+        [board[0][1], board[1][1], board[2][1]],
+        [board[0][2], board[1][2], board[2][2]],
+        # Diagonal
+        [board[0][0], board[1][1], board[2][2]],
+        [board[2][0], board[1][1], board[0][2]],
+        
+    ]
 
 while True:
     print_board(board)
