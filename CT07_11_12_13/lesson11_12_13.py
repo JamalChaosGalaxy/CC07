@@ -1,4 +1,6 @@
-win_conditions
+win_conditions = [
+    
+]
 
 def initialise_board():
     board = []
