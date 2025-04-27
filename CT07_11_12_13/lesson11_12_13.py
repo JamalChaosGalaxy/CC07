@@ -34,4 +34,5 @@ def get_player_move(board):
 print_board(initialise_board())
 board = initialise_board
 get_player_move(board)
+print_board(board)
 
