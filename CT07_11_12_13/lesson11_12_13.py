@@ -6,8 +6,9 @@ def initialise_board():
         for j in range(3):
             row.append(' ')
         board.append(row)
+    print(initialise_board)   
     return board
-print(initialise_board)   
+
      
 def print_board(board):
     print("\nBoard Layout: ")
@@ -33,7 +34,7 @@ def print_board(board):
 #     board[[row][col]] = 'X'
 
 board = initialise_board
-print_board(board)
+
 # get_player_move(board)
 print_board(board)
 
