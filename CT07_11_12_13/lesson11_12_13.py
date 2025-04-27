@@ -32,5 +32,6 @@ def get_player_move(board):
     board[[row][col]] = 'X'
 
 print_board(initialise_board())
+board = initialise_board
 get_player_move(board)
 
