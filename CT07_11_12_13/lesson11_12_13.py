@@ -42,6 +42,8 @@ def get_player_move(board):
         print("Invalid input. Please put in a number from 1 to 9")
 
 board = initialise_board()
+
+
 win_conditions = [
     # Horizontal
     [board[0][0], board[0][1], board[0][2]],
