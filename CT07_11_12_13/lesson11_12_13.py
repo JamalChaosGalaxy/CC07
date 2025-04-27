@@ -33,7 +33,7 @@ def get_player_move(board):
         col = move % 3
         board[row][col] = "x"
     else:
-        
+        print()
     
 
 board = initialise_board()
