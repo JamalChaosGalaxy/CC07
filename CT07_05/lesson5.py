@@ -1,14 +1,14 @@
 # print("Hello from lesson 5")
 
-import random
+# import random
 
-beta = []
+# beta = []
 
-for _ in range(100):
-    num = random.randint(1, 1000)
-    beta.append(num)
+# for _ in range(100):
+#     num = random.randint(1, 1000)
+#     beta.append(num)
 
-print (num[: 10])
+# print (num[: 10])
 
 # skibidi = 234
 
