@@ -19,18 +19,19 @@ skill = []
 isCorrect = False
 
 userInput = input("What has to be broken before you can use it?")
-userInput = userInput.lower
-userInput.split()
-skill.append(userInput)
+userInput = userInput.lower()
+userInput = userInput.split()
+skill.extend(userInput)
 
 for word in skill:
     if word == "egg":
         isCorrect = True
 
-if isCorrect == True:
+if isCorrect:
     print("Correct! Well done")
 else:
     print("That's not correct. Try Again")
+
 
 
 # Correct answer:
