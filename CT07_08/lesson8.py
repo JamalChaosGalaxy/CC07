@@ -51,14 +51,14 @@
 
 # print(password.join(" "))
 
-# word = "Hello World"
-# oval = word.split(" ")
-# sentence = []
+word = "Hello World"
+oval = word.split(" ")
+sentence = []
 
-# for word in oval:
-#     sentence.append(word[::-1])
-# sentence = " ".join(sentence)
-# print(sentence)
+for word in oval:
+    sentence.append(word[::-1])
+sentence = " ".join(sentence)
+print(sentence)
     
 
 
