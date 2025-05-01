@@ -10,4 +10,5 @@ for letter in Skibidi:
         alpha += 1
 
 if aplha > 4 or numbers > 4:
-    print("")
+    print("Car registration is invalid")
+
