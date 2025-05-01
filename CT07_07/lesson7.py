@@ -29,8 +29,8 @@
 # sorted_price = sorted(total)
 # print("After sort: " ,sorted_price)
 
-# fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Figs"]
-# index = 3
+fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Figs"]
+index = 3
 
 # left = fruits[:index]
 # right = fruits[index:]
@@ -40,8 +40,8 @@
 # print(len(fruits))
 
 # To slice the fruits list into two halves using the midpoint
-# print(fruits[0:3])
-# print(fruits[3:])
+print(fruits[0:3])
+print(fruits[3:])
 
 # list1 = ["Apple", "Banana", "Cherry", "Durian"]
 # list2 = ["Cherry", "Durian", "Elderberry", "Figs"]
