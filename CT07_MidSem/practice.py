@@ -1,2 +1,2 @@
 Regiplate = input("What is your registration plate?")
-Skibidi = Regiplate.split()
+Skibidi = Regiplate.split(",")
