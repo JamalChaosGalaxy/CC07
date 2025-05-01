@@ -135,24 +135,24 @@ else:
 
 # print(fruit_Max)
 
-data = []
-skibidi = []
+# data = []
+# skibidi = []
 
-while True:
-    code = input("Enter 'a' to add, 's' to search, 'd' to display, or 'q' to quit: ")
-    if code == "q": 
-        break
-    if code == "a":
-        for skibidi in data:
-            for skidata in skibidi:
-                name, password, url = skidata
-        name = input("Enter Username: ")
-        word = input("Enter Password: ")
-        Url = input("Enter Website Url: ")
-    if code == "s":
-        search = input("Enter search keyword: ")
-        for skidata in skibidi:
-            if search == skidata:
-                print(skibidi)
-    if code == "d":
-        print(skibidi)
+# while True:
+#     code = input("Enter 'a' to add, 's' to search, 'd' to display, or 'q' to quit: ")
+#     if code == "q": 
+#         break
+#     if code == "a":
+#         for skibidi in data:
+#             for skidata in skibidi:
+#                 name, password, url = skidata
+#         name = input("Enter Username: ")
+#         word = input("Enter Password: ")
+#         Url = input("Enter Website Url: ")
+#     if code == "s":
+#         search = input("Enter search keyword: ")
+#         for skidata in skibidi:
+#             if search == skidata:
+#                 print(skibidi)
+#     if code == "d":
+#         print(skibidi)
