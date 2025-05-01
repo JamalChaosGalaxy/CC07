@@ -1,1 +1,1 @@
-Regiplate = 
+Regiplate = input("")
