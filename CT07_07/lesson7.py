@@ -40,8 +40,8 @@ index = 3
 # print(len(fruits))
 
 # To slice the fruits list into two halves using the midpoint
-print(fruits[0:3])
-print(fruits[3:])
+# print(fruits[0:3])
+# print(fruits[3:])
 
 # list1 = ["Apple", "Banana", "Cherry", "Durian"]
 # list2 = ["Cherry", "Durian", "Elderberry", "Figs"]
@@ -94,11 +94,11 @@ print(fruits[3:])
 
 # print(even)
 
-nested_list = [[1, 2], [3, 4], [5, 6]]
-flat = []
+# nested_list = [[1, 2], [3, 4], [5, 6]]
+# flat = []
 
-for item in nested_list:
-    for i in item:
-        flat.append(i)
+# for item in nested_list:
+#     for i in item:
+#         flat.append(i)
 
-print (flat)
+# print (flat)
