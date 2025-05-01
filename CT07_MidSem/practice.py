@@ -11,4 +11,5 @@ for letter in Skibidi:
 
 if aplha > 4 or numbers > 4:
     print("Car registration is invalid")
-
+else:
+    print("It is valid for checking")
