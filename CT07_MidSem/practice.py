@@ -1,1 +1,1 @@
-Regiplate = input("")
+Regiplate = input("What is your registration plate?")
