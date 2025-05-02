@@ -1,5 +1,6 @@
 def is_valid_car_id(car_id):
     # Convert input to uppercase to handle lowercase inputs
+    
     car_id = car_id.upper()
 
     # Check if the last character is an alphabet (checksum letter)
