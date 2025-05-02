@@ -37,7 +37,8 @@
 # 	print(word[i])
 
 def check_Score(command):
-    
+    while True:
+        command = input("What would you like to do? ()")
 	
 	
 
