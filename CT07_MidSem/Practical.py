@@ -48,4 +48,6 @@ def CheckingPlate(boardnum):
 			Numbers.append(stuff)
 		if stuff.isalpha:
 			Letters.append(stuff)
+	
+	
     
