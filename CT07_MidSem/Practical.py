@@ -47,4 +47,4 @@ for stuff in Body:
     if stuff.isdigit:
         Numbers.append(stuff)
     if stuff.isalpha:
-        Letters.a
+        Letters.append(stuff)
