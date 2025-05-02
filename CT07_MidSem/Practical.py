@@ -38,7 +38,7 @@
 
 def check_Score(command):
     while True:
-        command = input("What would you like to do? (a to add, )")
+        command = input("What would you like to do? (a to add, s to search )")
 	
 	
 
