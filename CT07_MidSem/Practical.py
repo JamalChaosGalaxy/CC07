@@ -37,4 +37,4 @@
 # 	print(word[i])
 
 
-registration_plate = 
+registration_plate = input("What is your resgistration plate?")
