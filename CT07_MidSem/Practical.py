@@ -40,6 +40,8 @@ def CheckingPlate(boardnum):
 	registration_plate = input("What is your resgistration plate?")
 	Body = registration_plate.split(",")
 
+	final_num == bpard
+
 	Numbers = []
 	Letters = []
 
@@ -55,6 +57,6 @@ def CheckingPlate(boardnum):
 	if len(Numbers) > 4:
 		print("Invalid Car Registration plate")
 	
-	
+
 
     
