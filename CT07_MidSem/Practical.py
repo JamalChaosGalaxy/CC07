@@ -40,7 +40,6 @@ def CheckingPlate(boardnum):
 	registration_plate = input("What is your resgistration plate?")
 	Body = registration_plate.split(",")
 
-	final_num == Body[-1]
 
 	Numbers = []
 	Letters = []
