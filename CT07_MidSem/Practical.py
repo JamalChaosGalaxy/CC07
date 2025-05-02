@@ -49,5 +49,8 @@ def CheckingPlate(boardnum):
 		if stuff.isalpha:
 			Letters.append(stuff)
 	
+	if len(Letters) < 2 or len(Letters) > 4:
+		print
 	
+
     
