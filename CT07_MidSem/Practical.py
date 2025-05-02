@@ -36,10 +36,9 @@
 # while i < 10:
 # 	print(word[i])
 
-def check_Score(command):
-    while True:
-        command = input("What would you like to do? (a to add, s to search, f to find the highest and lowes scores, d to delete and e to end)")
-	
+
+             
+             
 	
 
 
