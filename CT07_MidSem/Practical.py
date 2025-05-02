@@ -45,4 +45,6 @@ Letters = []
 
 for stuff in Body:
     if stuff.isdigit:
-        Numbers.append(st)
+        Numbers.append(stuff)
+    if stuff.isalpha:
+        Letters.a
