@@ -37,3 +37,4 @@
 # 	print(word[i])
 
 
+registration_plate = 
