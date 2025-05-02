@@ -57,7 +57,8 @@ def is_valid_car_id(car_id):
     ]
 
     # Compare the expected checksum letter with the one in the ID
-    return checksum_letter == checksum_table[remainder]
+    if checksum_letter == checksum_table[remainder]:
+        return True
 
 # === Main Program ===
 
