@@ -55,5 +55,6 @@ def CheckingPlate(boardnum):
 	if len(Numbers) > 4:
 		print("Invalid Car Registration plate")
 	
+	
 
     
