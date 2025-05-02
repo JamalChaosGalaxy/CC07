@@ -50,7 +50,9 @@ def CheckingPlate(boardnum):
 			Letters.append(stuff)
 	
 	if len(Letters) < 2 or len(Letters) > 4:
-		print("Invalid ")
+		print("Invalid Car Registration plate")
+	
+	
 	
 
     
