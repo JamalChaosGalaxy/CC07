@@ -38,3 +38,4 @@
 
 
 registration_plate = input("What is your resgistration plate?")
+Body = registration_plate.split
