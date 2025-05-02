@@ -36,25 +36,8 @@
 # while i < 10:
 # 	print(word[i])
 
-def CheckingPlate(boardnum):
-	registration_plate = input("What is your resgistration plate?")
-	Body = registration_plate.split(",")
-
-
-	Numbers = []
-	Letters = []
-
-	for stuff in Body:
-		if stuff.isdigit:
-			Numbers.append(stuff)
-		if stuff.isalpha:
-			Letters.append(stuff)
-	
-	if len(Letters) < 2 or len(Letters) > 4:
-		print("Invalid Car Registration plate")
-	
-	if len(Numbers) > 4:
-		print("Invalid Car Registration plate")
+def check_Score(command):
+    
 	
 	
 
