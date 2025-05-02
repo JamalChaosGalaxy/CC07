@@ -61,6 +61,15 @@ def is_valid_car_id(car_id):
         if checksum_letter == checksum_table[remainder]:
             return True
 
+        car_plate = input("Registration Plate: ")
+
+# Call the validation function and print the result
+if is_valid_car_id(car_plate):
+    print("Valid")
+else:
+    print("Invalid")
+
+
 # === Main Program ===
 
 # Ask the user for the car registration plate
