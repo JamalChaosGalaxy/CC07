@@ -40,3 +40,9 @@
 registration_plate = input("What is your resgistration plate?")
 Body = registration_plate.split(",")
 
+Numbers = []
+Letters = []
+
+for stuff in Body:
+    if stuff.isdigit:
+        Numbers.append(st)
