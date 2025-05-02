@@ -20,16 +20,16 @@
 # has_num = False
 # only_alnum = False
 
-# password = input("Please enter your password: ")
-# has_upper = not(password.islower())
-# has_lower = not(password.isupper())
-# has_num = not(password.isalpha())
-# has_alpha = not(password.isalnum())
+password = input("Please enter your password: ")
+has_upper = not(password.islower())
+has_lower = not(password.isupper())
+has_num = not(password.isalpha())
+has_alpha = not(password.isalnum())
 
-# if (password.isalnum() and len(password) >= 8 and has_upper and has_lower and has_num):
-#     print("Password valid")
-# else:
-#     print("Password invalid")
+if (password.isalnum() and len(password) >= 8 and has_upper and has_lower and has_num):
+    print("Password valid")
+else:
+    print("Password invalid")
 
 # sentence = input("What is your sentence?")
 # mocked_sentence = ""
