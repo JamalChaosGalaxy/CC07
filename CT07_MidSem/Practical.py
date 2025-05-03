@@ -53,11 +53,9 @@ import random
 score = 0
 options = ['Rock', 'Paper', 'Scissors']
 
-def computermove():
-    computermove = random.randint(options)
 
-def playermove():
-    playermove = str(input("What is your chosen move?"))
+computermove = random.randint(options)
+playermove = str(input("What is your chosen move?"))
     if not playermove in options:
         print("Invalid Move")
 
