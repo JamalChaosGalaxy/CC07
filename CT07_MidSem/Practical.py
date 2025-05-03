@@ -36,10 +36,43 @@
 # while i < 10:
 # 	print(word[i])
 
+# import random
+# number = random.randint(1, 100)
 
-             
-             
-	
+# while True:
+#     guess = int(input("What is your guess number from 1 to 100? "))
+#     if guess > number:
+#         print("Too big")
+#     elif guess < number:
+#         print("Too small")
+#     else:
+#         print("You are correct!")
+#         break             
 
+import random     
+score = 0
+options = ['Rock', 'Paper', 'Scissors']
 
-    
+def computermove():
+    computermove = random.randint(options)
+
+def playermove():
+    playermove = str(input("What is your chosen move?"))
+    if not playermove in options:
+        print("Invalid Move")
+
+def determine_winner(computermove, playermove):
+    if (playermove == 'Paper' and computermove == 'Rock'):
+        print("You win")
+    elif(playermove == 'Rock' and computermove == 'Scissors'):
+        print("You win")
+    elif(playermove == 'Scissors' and computermove == 'Paper'):
+        print("You win")
+    elif(playermove == 'Paper' and computermove == 'Scissors'):
+        print("You lose")
+    elif(playermove == 'Rock' and computermove == 'Paper'):
+        print("You lose")
+    elif(playermove == 'Scissors' and computermove == 'Rock'):
+        print("You lose")
+
+determine_winner(computermove, playermove)
