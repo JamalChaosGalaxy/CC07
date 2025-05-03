@@ -58,7 +58,8 @@ computermove = random.choice(options)
 playermove = str(input("What is your chosen move?"))
 if not playermove in options:
     print("Invalid Move")
-print("Computer's Move")
+print("Computer's Move: ", computermove)
+print("")
 
 def determine_winner(computermove, playermove):
     if (playermove == 'Paper' and computermove == 'Rock'):
