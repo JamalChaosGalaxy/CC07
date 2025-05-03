@@ -31,10 +31,10 @@
 #     i += 1
     
     
-word = "peanut"
-i = 0
-while i < 10:
-	print(word[i])
+# word = "peanut"
+# i = 0
+# while i < 10:
+# 	print(word[i])
 
 
              
