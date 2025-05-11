@@ -4,8 +4,8 @@ import pygame
 pygame.init()#Initialize Pygame
 
 # Creates the main window for your pygame 
-screen_width = 100
-screen_height = 100
+screen_width = 800
+screen_height = 600
 # Siaplys the name of the game
 
 running = True
