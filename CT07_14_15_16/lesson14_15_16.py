@@ -35,6 +35,8 @@ while running:
 
     screen.fill(black)
 
+    ball_x
+
     keys = pygame.key.get_pressed()
 
     if keys[pygame.K_w] and paddle1_y > 0:
