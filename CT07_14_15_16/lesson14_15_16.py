@@ -35,7 +35,8 @@ while running:
 
     screen.fill(black)
 
-    ball_x
+    ball_x += ball_x
+    bal
 
     keys = pygame.key.get_pressed()
 
