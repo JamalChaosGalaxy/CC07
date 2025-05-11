@@ -9,6 +9,7 @@ screen_height = 600
 # Siaplys the name of the game
 
 white = (255, 255, 255)
+black = (0, 0, 0)
 
 paddle_width = 20
 paddle_height = 100
