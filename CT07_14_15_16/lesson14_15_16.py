@@ -34,7 +34,7 @@ while running:
         paddle1_y -=  1
     if keys[pygame.K_s] and paddle1_y < screen_height - paddle_height:
         paddle1_y += 1
-    if keys[pygame.K_s] and paddle1_y < screen_height - paddle_height:
+    if keys[pygame.K_] and paddle1_y < screen_height - paddle_height:
         paddle1_y += 1
     
     pygame.draw.rect(screen, white, (paddle1_x, paddle1_y, paddle_width, paddle_height))
