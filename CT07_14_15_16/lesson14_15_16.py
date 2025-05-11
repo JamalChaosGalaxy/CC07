@@ -7,7 +7,6 @@ pygame.init()#Initialize Pygame
 screen_width = 100
 screen_height = 100
 # Siaplys the name of the game
-pygame.display.set_caption("Pong game")
 
 running = True
 
@@ -17,3 +16,4 @@ while running:
             running = False
 
 screen = pygame.display.set_mode((screen_width, screen_height))
+pygame.display.set_caption("Pong game")
