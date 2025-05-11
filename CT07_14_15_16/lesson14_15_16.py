@@ -4,4 +4,4 @@ import pygame
 pygame.init()#Initialize Pygame
 screen_width = 100
 screen_height = 100
-screen = pygame.display.int_mode((screen_width, screen_height))
+screen = pygame.display.set_mode((screen_width, screen_height))
