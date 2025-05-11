@@ -23,6 +23,9 @@ ball_radius = 10
 ball_x = screen_width // 2
 ball_y = screen_height // 2
 
+ball_dx = 0.5
+ball_dy = 0.5
+
 running = True
 
 screen = pygame.display.set_mode((screen_width, screen_height))
@@ -35,8 +38,8 @@ while running:
 
     screen.fill(black)
 
-    ball_x += ball_x
-    bal
+    ball_x += ball_dx
+    ball_y += ball_dy
 
     keys = pygame.key.get_pressed()
 
