@@ -15,6 +15,8 @@ paddle_height = 100
 paddle1_x = 10
 paddle1_y = screen_height // 2 - paddle_height // 2
 
+paddle2_x 
+
 running = True
 
 screen = pygame.display.set_mode((screen_width, screen_height))
