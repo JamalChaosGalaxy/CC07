@@ -20,7 +20,7 @@ paddle2_x = screen_width - paddle_width - 10
 paddle2_y = screen_height // 2 - paddle_height // 2
 
 ball_radius = 10
-ball
+ball_x = s
 
 running = True
 
