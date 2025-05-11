@@ -26,6 +26,6 @@ while running:
             running = False
     
     pygame.draw.rect(screen, white, (paddle1_x, paddle1_y, paddle_width, paddle_height))
+    pygame.display.flip()
 
-pygame.display.flip()
 pygame.quit()
