@@ -12,7 +12,8 @@ white = (255, 255, 255)
 
 paddle_width = 20
 paddle_height = 100
-
+paddle1_x = 10
+paddle1_y = screen
 
 running = True
 
@@ -23,5 +24,7 @@ while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
+    
+    pygame.draw.rect(screen, white, (paddle1_x, paddle1_y, paddle_width, paddle_height))
 
 pygame.quit()
