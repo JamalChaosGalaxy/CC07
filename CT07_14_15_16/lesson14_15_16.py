@@ -28,7 +28,7 @@ while running:
         if event.type == pygame.QUIT:
             running = False
 
-    keys
+    keys = pygame.key.ge
     
     pygame.draw.rect(screen, white, (paddle1_x, paddle1_y, paddle_width, paddle_height))
     pygame.draw.rect(screen, white, (paddle2_x, paddle2_y, paddle_width, paddle_height))
