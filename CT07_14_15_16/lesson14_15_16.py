@@ -8,7 +8,8 @@ screen_width = 800
 screen_height = 600
 # Siaplys the name of the game
 
-white = (255, )
+white = (255, 255, 255)
+
 
 running = True
 
