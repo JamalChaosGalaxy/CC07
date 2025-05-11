@@ -28,7 +28,10 @@ while running:
         if event.type == pygame.QUIT:
             running = False
 
-    keys = pygame.key.ge
+    keys = pygame.key.get_pressed()
+
+    if keys[pygame.K_w] and paddle1_y > 0:
+        padd
     
     pygame.draw.rect(screen, white, (paddle1_x, paddle1_y, paddle_width, paddle_height))
     pygame.draw.rect(screen, white, (paddle2_x, paddle2_y, paddle_width, paddle_height))
