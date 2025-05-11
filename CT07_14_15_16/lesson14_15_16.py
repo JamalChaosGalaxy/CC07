@@ -16,6 +16,7 @@ paddle1_x = 10
 paddle1_y = screen_height // 2 - paddle_height // 2
 
 paddle2_x = screen_width - paddle_width - 10
+paddle2_y = screen_height // 2 - paddle_height // 2
 
 running = True
 
