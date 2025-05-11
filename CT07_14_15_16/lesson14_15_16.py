@@ -31,7 +31,7 @@ while running:
     keys = pygame.key.get_pressed()
 
     if keys[pygame.K_w] and paddle1_y > 0:
-        paddle1_y -=  1
+        paddle1_y -= 1
     if keys[pygame.K_s] and paddle1_y < screen_height - paddle_height:
         paddle1_y += 1
     if keys[pygame.K_UP] and paddle2_y > 0:
