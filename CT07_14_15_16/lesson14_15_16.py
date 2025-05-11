@@ -27,4 +27,5 @@ while running:
     
     pygame.draw.rect(screen, white, (paddle1_x, paddle1_y, paddle_width, paddle_height))
 
+pygame
 pygame.quit()
