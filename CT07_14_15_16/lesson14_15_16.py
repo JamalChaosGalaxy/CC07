@@ -10,12 +10,12 @@ screen_height = 100
 
 running = True
 
+screen = pygame.display.set_mode((screen_width, screen_height))
+pygame.display.set_caption("Pong game")
+
 while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
 
 pygame.quit()
-
-screen = pygame.display.set_mode((screen_width, screen_height))
-pygame.display.set_caption("Pong game")
