@@ -6,7 +6,6 @@ pygame.init()#Initialize Pygame
 # Creates the main window for your pygame 
 screen_width = 100
 screen_height = 100
-screen = pygame.display.set_mode((screen_width, screen_height))
 # Siaplys the name of the game
 pygame.display.set_caption("Pong game")
 
@@ -16,3 +15,5 @@ while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
+
+screen = pygame.display.set_mode((screen_width, screen_height))
