@@ -29,6 +29,8 @@ while running:
         if event.type == pygame.QUIT:
             running = False
 
+    screen.fill(black)
+
     keys = pygame.key.get_pressed()
 
     if keys[pygame.K_w] and paddle1_y > 0:
