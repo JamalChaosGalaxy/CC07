@@ -74,6 +74,6 @@ while running:
     pygame.draw.circle(screen, white, (ball_x, ball_y), ball_radius)
     pygame.display.flip()
 
-    screen.blit(background_image)
+    screen.blit(background_image, (0, 0))
 
 pygame.quit()
