@@ -38,7 +38,7 @@ while running:
         if event.type == pygame.QUIT:
             running = False
 
-    screen.fill(black)
+    #screen.fill(black)
 
     ball_x += ball_dx
     ball_y += ball_dy
