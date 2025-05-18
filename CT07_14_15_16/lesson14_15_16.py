@@ -70,6 +70,10 @@ while running:
         ball_dx *= -1 
         player1_score += 1
         print("Player 1 score: " + str(player1_score))
+    if ball_x :
+        ball_dx *= -1 
+        player1_score += 1
+        print("Player 1 score: " + str(player1_score))
 
 
     paddle1_box = pygame.Rect(paddle1_x, paddle1_y, paddle_width, paddle_height)
