@@ -94,7 +94,7 @@ while running:
     # pygame.draw.rect(screen, white, (paddle2_x, paddle2_y, paddle_width, paddle_height))
     # pygame.draw.circle(screen, white, (ball_x, ball_y), ball_radius)
     player1_score_text = score_font.render("Player 1: " + str(player1_score), True, black)  
-    screen.blit()
+    screen.blit(player1_score_text)
     pygame.display.flip()
 
 pygame.quit()
