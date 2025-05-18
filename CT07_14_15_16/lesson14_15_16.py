@@ -77,7 +77,7 @@ while running:
     screen.blit(tennis_ball_image, (ball_x - ball_radius, ball_y - ball_radius))
     screen.blit(tennis_racket_image, (paddle1_x, paddle1_y))
     screen.blit(tennis_racket_image, (paddle2_x, paddle2_y))
-    screen.blit(rotate(tennis_racket_image, 180), (paddle_2x, paddle2_))
+    screen.blit(rotate(tennis_racket_image, 180), (paddle2_x, paddle2_y))
     # pygame.draw.rect(screen, white, (paddle1_x, paddle1_y, paddle_width, paddle_height))
     # pygame.draw.rect(screen, white, (paddle2_x, paddle2_y, paddle_width, paddle_height))
     # pygame.draw.circle(screen, white, (ball_x, ball_y), ball_radius)
