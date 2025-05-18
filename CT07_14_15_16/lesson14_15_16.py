@@ -55,6 +55,9 @@ while running:
 
     if ball_y <= 0 or ball_y >= screen_height:
         ball_dy *= -1
+
+    if ball_x  <= 0 or ball_x >= screen_width:
+        
     
     pygame.draw.rect(screen, white, (paddle1_x, paddle1_y, paddle_width, paddle_height))
     pygame.draw.rect(screen, white, (paddle2_x, paddle2_y, paddle_width, paddle_height))
