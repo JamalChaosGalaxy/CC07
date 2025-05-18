@@ -34,7 +34,7 @@ tennis_racket_image = pygame.image.load('CT07_14_15_16/Tennis Racket.png')
 running = True
 
 player1_score = 0
-player2_score
+player2_score = 0
 
 screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption("Pong game")
