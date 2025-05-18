@@ -95,6 +95,8 @@ while running:
     # pygame.draw.circle(screen, white, (ball_x, ball_y), ball_radius)
     player1_score_text = score_font.render("Player 1: " + str(player1_score), True, black)  
     screen.blit(player1_score_text, (10, 10))
+    player2_score_text = score_font.render("Player 1: " + str(player1_score), True, black)  
+    screen.blit(player1_score_text, (10, 10))
     pygame.display.flip()
 
 pygame.quit()
