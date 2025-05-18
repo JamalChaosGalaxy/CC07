@@ -4,7 +4,7 @@ from pygame.transform import rotate
 
 pygame.init()#Initialize Pygame
 
-score_font
+score_font = pygame.font.font()
 # Creates the main window for your pygame 
 screen_width = 800
 screen_height = 600
