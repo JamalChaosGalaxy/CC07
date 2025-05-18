@@ -62,7 +62,7 @@ while running:
     paddle1_box = pygame.Rect(paddle1_x, paddle1_y, paddle_width, paddle_height)
 
     if ball_x <= paddle1_box.right + ball_radius and ball_y >= paddle1_box:
-        ball_dx 
+        ball_dx *= -1
     
     pygame.draw.rect(screen, white, (paddle1_x, paddle1_y, paddle_width, paddle_height))
     pygame.draw.rect(screen, white, (paddle2_x, paddle2_y, paddle_width, paddle_height))
