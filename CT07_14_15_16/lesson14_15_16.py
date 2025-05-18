@@ -54,7 +54,7 @@ while running:
         paddle2_y += 1
 
     if ball_y <= 0 or ball_y >= screen_height:
-        ball_
+        ball_dy
     
     pygame.draw.rect(screen, white, (paddle1_x, paddle1_y, paddle_width, paddle_height))
     pygame.draw.rect(screen, white, (paddle2_x, paddle2_y, paddle_width, paddle_height))
