@@ -76,6 +76,6 @@ while running:
     pygame.display.flip()
 
     screen.blit(background_image, (0, 0))
-    screen.bilt(tennis_ball_image, (ball_x))
+    screen.bilt(tennis_ball_image, (ball_x - ball_radius, ball))
 
 pygame.quit()
