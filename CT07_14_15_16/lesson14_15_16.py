@@ -27,6 +27,7 @@ ball_dx = 0.5
 ball_dy = 0.5
 
 background_image = pygame.image.load('CT07_14_15_16/Grass Court.jpg')
+background_image = pygame.image.load('CT07_14_15_16/Grass Court.jpg')
 
 running = True
 
