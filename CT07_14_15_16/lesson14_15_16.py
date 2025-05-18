@@ -70,7 +70,7 @@ while running:
         ball_dx *= -1 
         player1_score += 1
         print("Player 1 score: " + str(player1_score))
-    if ball_x :
+    if ball_x <= 0:
         ball_dx *= -1 
         player1_score += 1
         print("Player 1 score: " + str(player1_score))
