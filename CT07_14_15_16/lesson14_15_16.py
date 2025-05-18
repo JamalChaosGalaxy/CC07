@@ -33,6 +33,9 @@ tennis_racket_image = pygame.image.load('CT07_14_15_16/Tennis Racket.png')
 
 running = True
 
+player1_score = 0
+player2_score
+
 screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption("Pong game")
 
@@ -67,7 +70,7 @@ while running:
         ball_dx *= -1 
         player1_score += 1
         print("Player 1 score: " + str(player1_score))
-        
+
 
     paddle1_box = pygame.Rect(paddle1_x, paddle1_y, paddle_width, paddle_height)
     paddle2_box = pygame.Rect(paddle2_x, paddle2_y, paddle_width, paddle_height)
